@@ -1,0 +1,3647 @@
+-- GUI Created with GUI Editor by KULTHX  EDITOR Pro
+
+local Players = game:GetService('Players')
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild('PlayerGui')
+
+local ScreenGui = Instance.new('ScreenGui')
+ScreenGui.Name = 'GeneratedGUI'
+ScreenGui.ResetOnSpawn = false
+ScreenGui.Parent = playerGui
+
+local coffemap_1 = Instance.new('Frame')
+coffemap_1.Name = 'coffe map'
+coffemap_1.Size = UDim2.new(0.5000, 0, 0.9900, 0)
+coffemap_1.Position = UDim2.new(0.2500, 0, 0.0000, 0)
+coffemap_1.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+coffemap_1.BackgroundTransparency = 0.00
+coffemap_1.Visible = true
+local coffemap_1_corner = Instance.new('UICorner')
+coffemap_1_corner.CornerRadius = UDim.new(0.0300, 0)
+coffemap_1_corner.Parent = coffemap_1
+local coffemap_1_stroke = Instance.new('UIStroke')
+coffemap_1_stroke.Thickness = 5
+coffemap_1_stroke.Color = Color3.fromRGB(1, 255, 1)
+coffemap_1_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+coffemap_1_stroke.Parent = coffemap_1
+coffemap_1.Parent = ScreenGui
+
+local TextButton_2 = Instance.new('TextButton')
+TextButton_2.Name = 'TextButton'
+TextButton_2.Size = UDim2.new(0.2000, 0, 0.0000, 40)
+TextButton_2.Position = UDim2.new(0.3700, 0, 0.0000, 0)
+TextButton_2.BackgroundColor3 = Color3.fromRGB(140, 80, 255)
+TextButton_2.BackgroundTransparency = 1.00
+TextButton_2.Visible = true
+TextButton_2.Font = Enum.Font.SourceSansSemibold
+TextButton_2.Text = [[🤯✨EPIKGUYBYKAAX v2✨🤯]]
+TextButton_2.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_2.TextSize = 20.0
+TextButton_2.TextScaled = false
+TextButton_2.TextWrapped = false
+TextButton_2.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_2.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_2_corner = Instance.new('UICorner')
+TextButton_2_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_2_corner.Parent = TextButton_2
+TextButton_2.Parent = ScreenGui
+
+local TextButton_3 = Instance.new('TextButton')
+TextButton_3.Name = 'TextButton'
+TextButton_3.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_3.Position = UDim2.new(0.2500, 0, 0.0000, 0)
+TextButton_3.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_3.BackgroundTransparency = 0.00
+TextButton_3.Visible = true
+TextButton_3.Font = Enum.Font.SourceSansSemibold
+TextButton_3.Text = [[EPIKGUY V1]]
+TextButton_3.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_3.TextSize = 16.0
+TextButton_3.TextScaled = true
+TextButton_3.TextWrapped = true
+TextButton_3.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_3.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_3_corner = Instance.new('UICorner')
+TextButton_3_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_3_corner.Parent = TextButton_3
+local TextButton_3_stroke = Instance.new('UIStroke')
+TextButton_3_stroke.Thickness = 3
+TextButton_3_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_3_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_3_stroke.Parent = TextButton_3
+TextButton_3.Parent = ScreenGui
+
+local TextButton_4 = Instance.new('TextButton')
+TextButton_4.Name = 'TextButton'
+TextButton_4.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_4.Position = UDim2.new(0.6800, 0, 0.0000, 0)
+TextButton_4.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_4.BackgroundTransparency = 0.00
+TextButton_4.Visible = true
+TextButton_4.Font = Enum.Font.SourceSansSemibold
+TextButton_4.Text = [[X]]
+TextButton_4.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_4.TextSize = 16.0
+TextButton_4.TextScaled = true
+TextButton_4.TextWrapped = true
+TextButton_4.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_4.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_4_corner = Instance.new('UICorner')
+TextButton_4_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_4_corner.Parent = TextButton_4
+local TextButton_4_stroke = Instance.new('UIStroke')
+TextButton_4_stroke.Thickness = 3
+TextButton_4_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_4_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_4_stroke.Parent = TextButton_4
+TextButton_4.Parent = ScreenGui
+
+local TextButton_5 = Instance.new('TextButton')
+TextButton_5.Name = 'TextButton'
+TextButton_5.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_5.Position = UDim2.new(0.1700, 0, 0.0185, 0)
+TextButton_5.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_5.BackgroundTransparency = 0.00
+TextButton_5.Visible = true
+TextButton_5.Font = Enum.Font.SourceSansSemibold
+TextButton_5.Text = [[Mateo Gui SS]]
+TextButton_5.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_5.TextSize = 16.0
+TextButton_5.TextScaled = true
+TextButton_5.TextWrapped = true
+TextButton_5.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_5.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_5_corner = Instance.new('UICorner')
+TextButton_5_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_5_corner.Parent = TextButton_5
+local TextButton_5_stroke = Instance.new('UIStroke')
+TextButton_5_stroke.Thickness = 3
+TextButton_5_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_5_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_5_stroke.Parent = TextButton_5
+TextButton_5.Parent = ScreenGui
+
+local TextButton_6 = Instance.new('TextButton')
+TextButton_6.Name = 'TextButton'
+TextButton_6.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_6.Position = UDim2.new(0.1700, 0, 0.0923, 0)
+TextButton_6.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_6.BackgroundTransparency = 0.00
+TextButton_6.Visible = true
+TextButton_6.Font = Enum.Font.SourceSansSemibold
+TextButton_6.Text = [[Mateo ss Utg]]
+TextButton_6.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_6.TextSize = 16.0
+TextButton_6.TextScaled = true
+TextButton_6.TextWrapped = true
+TextButton_6.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_6.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_6_corner = Instance.new('UICorner')
+TextButton_6_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_6_corner.Parent = TextButton_6
+local TextButton_6_stroke = Instance.new('UIStroke')
+TextButton_6_stroke.Thickness = 3
+TextButton_6_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_6_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_6_stroke.Parent = TextButton_6
+TextButton_6.Parent = ScreenGui
+
+local TextButton_7 = Instance.new('TextButton')
+TextButton_7.Name = 'TextButton'
+TextButton_7.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_7.Position = UDim2.new(0.1700, 0, 0.1845, 0)
+TextButton_7.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_7.BackgroundTransparency = 0.00
+TextButton_7.Visible = true
+TextButton_7.Font = Enum.Font.SourceSansSemibold
+TextButton_7.Text = [[baldi]]
+TextButton_7.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_7.TextSize = 16.0
+TextButton_7.TextScaled = true
+TextButton_7.TextWrapped = true
+TextButton_7.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_7.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_7_corner = Instance.new('UICorner')
+TextButton_7_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_7_corner.Parent = TextButton_7
+local TextButton_7_stroke = Instance.new('UIStroke')
+TextButton_7_stroke.Thickness = 3
+TextButton_7_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_7_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_7_stroke.Parent = TextButton_7
+TextButton_7.Parent = ScreenGui
+
+local TextButton_8 = Instance.new('TextButton')
+TextButton_8.Name = 'TextButton'
+TextButton_8.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_8.Position = UDim2.new(0.1700, 0, 0.2583, 0)
+TextButton_8.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_8.BackgroundTransparency = 0.00
+TextButton_8.Visible = true
+TextButton_8.Font = Enum.Font.SourceSansSemibold
+TextButton_8.Text = [[solaris]]
+TextButton_8.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_8.TextSize = 16.0
+TextButton_8.TextScaled = true
+TextButton_8.TextWrapped = true
+TextButton_8.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_8.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_8_corner = Instance.new('UICorner')
+TextButton_8_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_8_corner.Parent = TextButton_8
+local TextButton_8_stroke = Instance.new('UIStroke')
+TextButton_8_stroke.Thickness = 3
+TextButton_8_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_8_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_8_stroke.Parent = TextButton_8
+TextButton_8.Parent = ScreenGui
+
+local TextButton_9 = Instance.new('TextButton')
+TextButton_9.Name = 'TextButton'
+TextButton_9.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_9.Position = UDim2.new(0.1700, 0, 0.3321, 0)
+TextButton_9.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_9.BackgroundTransparency = 0.00
+TextButton_9.Visible = true
+TextButton_9.Font = Enum.Font.SourceSansSemibold
+TextButton_9.Text = [[elysian remale]]
+TextButton_9.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_9.TextSize = 16.0
+TextButton_9.TextScaled = true
+TextButton_9.TextWrapped = true
+TextButton_9.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_9.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_9_corner = Instance.new('UICorner')
+TextButton_9_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_9_corner.Parent = TextButton_9
+local TextButton_9_stroke = Instance.new('UIStroke')
+TextButton_9_stroke.Thickness = 3
+TextButton_9_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_9_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_9_stroke.Parent = TextButton_9
+TextButton_9.Parent = ScreenGui
+
+local TextButton_10 = Instance.new('TextButton')
+TextButton_10.Name = 'TextButton'
+TextButton_10.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_10.Position = UDim2.new(0.1700, 0, 0.4244, 0)
+TextButton_10.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_10.BackgroundTransparency = 0.00
+TextButton_10.Visible = true
+TextButton_10.Font = Enum.Font.SourceSansSemibold
+TextButton_10.Text = [[Phonk Song]]
+TextButton_10.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_10.TextSize = 16.0
+TextButton_10.TextScaled = true
+TextButton_10.TextWrapped = true
+TextButton_10.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_10.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_10_corner = Instance.new('UICorner')
+TextButton_10_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_10_corner.Parent = TextButton_10
+local TextButton_10_stroke = Instance.new('UIStroke')
+TextButton_10_stroke.Thickness = 3
+TextButton_10_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_10_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_10_stroke.Parent = TextButton_10
+TextButton_10.Parent = ScreenGui
+
+local TextButton_11 = Instance.new('TextButton')
+TextButton_11.Name = 'TextButton'
+TextButton_11.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_11.Position = UDim2.new(0.1700, 0, 0.4982, 0)
+TextButton_11.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_11.BackgroundTransparency = 0.00
+TextButton_11.Visible = true
+TextButton_11.Font = Enum.Font.SourceSansSemibold
+TextButton_11.Text = [[skeleton sky v1]]
+TextButton_11.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_11.TextSize = 16.0
+TextButton_11.TextScaled = true
+TextButton_11.TextWrapped = true
+TextButton_11.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_11.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_11_corner = Instance.new('UICorner')
+TextButton_11_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_11_corner.Parent = TextButton_11
+local TextButton_11_stroke = Instance.new('UIStroke')
+TextButton_11_stroke.Thickness = 3
+TextButton_11_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_11_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_11_stroke.Parent = TextButton_11
+TextButton_11.Parent = ScreenGui
+
+local TextButton_12 = Instance.new('TextButton')
+TextButton_12.Name = 'TextButton'
+TextButton_12.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_12.Position = UDim2.new(0.1700, 0, 0.5720, 0)
+TextButton_12.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_12.BackgroundTransparency = 0.00
+TextButton_12.Visible = true
+TextButton_12.Font = Enum.Font.SourceSansSemibold
+TextButton_12.Text = [[rick roll virus real]]
+TextButton_12.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_12.TextSize = 16.0
+TextButton_12.TextScaled = true
+TextButton_12.TextWrapped = true
+TextButton_12.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_12.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_12_corner = Instance.new('UICorner')
+TextButton_12_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_12_corner.Parent = TextButton_12
+local TextButton_12_stroke = Instance.new('UIStroke')
+TextButton_12_stroke.Thickness = 3
+TextButton_12_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_12_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_12_stroke.Parent = TextButton_12
+TextButton_12.Parent = ScreenGui
+
+local TextButton_13 = Instance.new('TextButton')
+TextButton_13.Name = 'TextButton'
+TextButton_13.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_13.Position = UDim2.new(0.1700, 0, 0.6458, 0)
+TextButton_13.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_13.BackgroundTransparency = 0.00
+TextButton_13.Visible = true
+TextButton_13.Font = Enum.Font.SourceSansSemibold
+TextButton_13.Text = [[Project baller]]
+TextButton_13.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_13.TextSize = 16.0
+TextButton_13.TextScaled = true
+TextButton_13.TextWrapped = true
+TextButton_13.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_13.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_13_corner = Instance.new('UICorner')
+TextButton_13_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_13_corner.Parent = TextButton_13
+local TextButton_13_stroke = Instance.new('UIStroke')
+TextButton_13_stroke.Thickness = 3
+TextButton_13_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_13_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_13_stroke.Parent = TextButton_13
+TextButton_13.Parent = ScreenGui
+
+local TextButton_14 = Instance.new('TextButton')
+TextButton_14.Name = 'TextButton'
+TextButton_14.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_14.Position = UDim2.new(0.1700, 0, 0.7011, 0)
+TextButton_14.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_14.BackgroundTransparency = 0.00
+TextButton_14.Visible = true
+TextButton_14.Font = Enum.Font.SourceSansSemibold
+TextButton_14.Text = [[shiba]]
+TextButton_14.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_14.TextSize = 16.0
+TextButton_14.TextScaled = true
+TextButton_14.TextWrapped = true
+TextButton_14.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_14.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_14_corner = Instance.new('UICorner')
+TextButton_14_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_14_corner.Parent = TextButton_14
+local TextButton_14_stroke = Instance.new('UIStroke')
+TextButton_14_stroke.Thickness = 3
+TextButton_14_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_14_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_14_stroke.Parent = TextButton_14
+TextButton_14.Parent = ScreenGui
+
+local TextButton_15 = Instance.new('TextButton')
+TextButton_15.Name = 'TextButton'
+TextButton_15.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_15.Position = UDim2.new(0.1200, 0, 0.7565, 0)
+TextButton_15.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_15.BackgroundTransparency = 0.00
+TextButton_15.Visible = true
+TextButton_15.Font = Enum.Font.SourceSansSemibold
+TextButton_15.Text = [[project sonic]]
+TextButton_15.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_15.TextSize = 16.0
+TextButton_15.TextScaled = true
+TextButton_15.TextWrapped = true
+TextButton_15.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_15.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_15_corner = Instance.new('UICorner')
+TextButton_15_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_15_corner.Parent = TextButton_15
+local TextButton_15_stroke = Instance.new('UIStroke')
+TextButton_15_stroke.Thickness = 3
+TextButton_15_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_15_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_15_stroke.Parent = TextButton_15
+TextButton_15.Parent = ScreenGui
+
+local TextButton_16 = Instance.new('TextButton')
+TextButton_16.Name = 'TextButton'
+TextButton_16.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_16.Position = UDim2.new(0.1900, 0, 0.8134, 0)
+TextButton_16.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_16.BackgroundTransparency = 0.00
+TextButton_16.Visible = true
+TextButton_16.Font = Enum.Font.SourceSansSemibold
+TextButton_16.Text = [[a]]
+TextButton_16.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_16.TextSize = 16.0
+TextButton_16.TextScaled = true
+TextButton_16.TextWrapped = true
+TextButton_16.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_16.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_16_corner = Instance.new('UICorner')
+TextButton_16_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_16_corner.Parent = TextButton_16
+local TextButton_16_stroke = Instance.new('UIStroke')
+TextButton_16_stroke.Thickness = 3
+TextButton_16_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_16_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_16_stroke.Parent = TextButton_16
+TextButton_16.Parent = ScreenGui
+
+local TextButton_17 = Instance.new('TextButton')
+TextButton_17.Name = 'TextButton'
+TextButton_17.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_17.Position = UDim2.new(0.0900, 0, 0.6273, 0)
+TextButton_17.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_17.BackgroundTransparency = 0.00
+TextButton_17.Visible = true
+TextButton_17.Font = Enum.Font.SourceSansSemibold
+TextButton_17.Text = [[project mega Private by g00by]]
+TextButton_17.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_17.TextSize = 16.0
+TextButton_17.TextScaled = true
+TextButton_17.TextWrapped = true
+TextButton_17.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_17.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_17_corner = Instance.new('UICorner')
+TextButton_17_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_17_corner.Parent = TextButton_17
+local TextButton_17_stroke = Instance.new('UIStroke')
+TextButton_17_stroke.Thickness = 3
+TextButton_17_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_17_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_17_stroke.Parent = TextButton_17
+TextButton_17.Parent = ScreenGui
+
+local TextButton_18 = Instance.new('TextButton')
+TextButton_18.Name = 'TextButton'
+TextButton_18.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_18.Position = UDim2.new(0.0900, 0, 0.5351, 0)
+TextButton_18.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_18.BackgroundTransparency = 0.00
+TextButton_18.Visible = true
+TextButton_18.Font = Enum.Font.SourceSansSemibold
+TextButton_18.Text = [[project 007nu TXT]]
+TextButton_18.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_18.TextSize = 16.0
+TextButton_18.TextScaled = true
+TextButton_18.TextWrapped = true
+TextButton_18.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_18.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_18_corner = Instance.new('UICorner')
+TextButton_18_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_18_corner.Parent = TextButton_18
+local TextButton_18_stroke = Instance.new('UIStroke')
+TextButton_18_stroke.Thickness = 3
+TextButton_18_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_18_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_18_stroke.Parent = TextButton_18
+TextButton_18.Parent = ScreenGui
+
+local TextButton_19 = Instance.new('TextButton')
+TextButton_19.Name = 'TextButton'
+TextButton_19.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_19.Position = UDim2.new(0.0900, 0, 0.4613, 0)
+TextButton_19.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_19.BackgroundTransparency = 0.00
+TextButton_19.Visible = true
+TextButton_19.Font = Enum.Font.SourceSansSemibold
+TextButton_19.Text = [[project tegma]]
+TextButton_19.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_19.TextSize = 16.0
+TextButton_19.TextScaled = true
+TextButton_19.TextWrapped = true
+TextButton_19.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_19.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_19_corner = Instance.new('UICorner')
+TextButton_19_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_19_corner.Parent = TextButton_19
+local TextButton_19_stroke = Instance.new('UIStroke')
+TextButton_19_stroke.Thickness = 3
+TextButton_19_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_19_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_19_stroke.Parent = TextButton_19
+TextButton_19.Parent = ScreenGui
+
+local TextButton_20 = Instance.new('TextButton')
+TextButton_20.Name = 'TextButton'
+TextButton_20.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_20.Position = UDim2.new(0.0900, 0, 0.3690, 0)
+TextButton_20.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_20.BackgroundTransparency = 0.00
+TextButton_20.Visible = true
+TextButton_20.Font = Enum.Font.SourceSansSemibold
+TextButton_20.Text = [[elysian]]
+TextButton_20.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_20.TextSize = 16.0
+TextButton_20.TextScaled = true
+TextButton_20.TextWrapped = true
+TextButton_20.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_20.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_20_corner = Instance.new('UICorner')
+TextButton_20_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_20_corner.Parent = TextButton_20
+local TextButton_20_stroke = Instance.new('UIStroke')
+TextButton_20_stroke.Thickness = 3
+TextButton_20_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_20_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_20_stroke.Parent = TextButton_20
+TextButton_20.Parent = ScreenGui
+
+local TextButton_21 = Instance.new('TextButton')
+TextButton_21.Name = 'TextButton'
+TextButton_21.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_21.Position = UDim2.new(0.0900, 0, 0.2583, 0)
+TextButton_21.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_21.BackgroundTransparency = 0.00
+TextButton_21.Visible = true
+TextButton_21.Font = Enum.Font.SourceSansSemibold
+TextButton_21.Text = [[Mouster red EPIC]]
+TextButton_21.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_21.TextSize = 16.0
+TextButton_21.TextScaled = true
+TextButton_21.TextWrapped = true
+TextButton_21.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_21.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_21_corner = Instance.new('UICorner')
+TextButton_21_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_21_corner.Parent = TextButton_21
+local TextButton_21_stroke = Instance.new('UIStroke')
+TextButton_21_stroke.Thickness = 3
+TextButton_21_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_21_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_21_stroke.Parent = TextButton_21
+TextButton_21.Parent = ScreenGui
+
+local TextButton_22 = Instance.new('TextButton')
+TextButton_22.Name = 'TextButton'
+TextButton_22.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_22.Position = UDim2.new(0.0800, 0, 0.1661, 0)
+TextButton_22.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_22.BackgroundTransparency = 0.00
+TextButton_22.Visible = true
+TextButton_22.Font = Enum.Font.SourceSansSemibold
+TextButton_22.Text = [[ARCEUS X]]
+TextButton_22.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_22.TextSize = 16.0
+TextButton_22.TextScaled = true
+TextButton_22.TextWrapped = true
+TextButton_22.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_22.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_22_corner = Instance.new('UICorner')
+TextButton_22_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_22_corner.Parent = TextButton_22
+local TextButton_22_stroke = Instance.new('UIStroke')
+TextButton_22_stroke.Thickness = 3
+TextButton_22_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_22_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_22_stroke.Parent = TextButton_22
+TextButton_22.Parent = ScreenGui
+
+local TextButton_23 = Instance.new('TextButton')
+TextButton_23.Name = 'TextButton'
+TextButton_23.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_23.Position = UDim2.new(0.1000, 0, 0.0923, 0)
+TextButton_23.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_23.BackgroundTransparency = 0.00
+TextButton_23.Visible = true
+TextButton_23.Font = Enum.Font.SourceSansSemibold
+TextButton_23.Text = [[Project 3xen0kidd]]
+TextButton_23.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_23.TextSize = 16.0
+TextButton_23.TextScaled = true
+TextButton_23.TextWrapped = true
+TextButton_23.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_23.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_23_corner = Instance.new('UICorner')
+TextButton_23_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_23_corner.Parent = TextButton_23
+local TextButton_23_stroke = Instance.new('UIStroke')
+TextButton_23_stroke.Thickness = 3
+TextButton_23_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_23_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_23_stroke.Parent = TextButton_23
+TextButton_23.Parent = ScreenGui
+
+local TextButton_24 = Instance.new('TextButton')
+TextButton_24.Name = 'TextButton'
+TextButton_24.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_24.Position = UDim2.new(0.0900, 0, 0.0000, 0)
+TextButton_24.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_24.BackgroundTransparency = 0.00
+TextButton_24.Visible = true
+TextButton_24.Font = Enum.Font.SourceSansSemibold
+TextButton_24.Text = [[mr bean admin]]
+TextButton_24.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_24.TextSize = 16.0
+TextButton_24.TextScaled = true
+TextButton_24.TextWrapped = true
+TextButton_24.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_24.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_24_corner = Instance.new('UICorner')
+TextButton_24_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_24_corner.Parent = TextButton_24
+local TextButton_24_stroke = Instance.new('UIStroke')
+TextButton_24_stroke.Thickness = 3
+TextButton_24_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_24_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_24_stroke.Parent = TextButton_24
+TextButton_24.Parent = ScreenGui
+
+local TextButton_25 = Instance.new('TextButton')
+TextButton_25.Name = 'TextButton'
+TextButton_25.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_25.Position = UDim2.new(0.7600, 0, 0.0000, 0)
+TextButton_25.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_25.BackgroundTransparency = 0.00
+TextButton_25.Visible = true
+TextButton_25.Font = Enum.Font.SourceSansSemibold
+TextButton_25.Text = [[Topk3k v0.8]]
+TextButton_25.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_25.TextSize = 16.0
+TextButton_25.TextScaled = true
+TextButton_25.TextWrapped = true
+TextButton_25.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_25.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_25_corner = Instance.new('UICorner')
+TextButton_25_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_25_corner.Parent = TextButton_25
+local TextButton_25_stroke = Instance.new('UIStroke')
+TextButton_25_stroke.Thickness = 3
+TextButton_25_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_25_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_25_stroke.Parent = TextButton_25
+TextButton_25.Parent = ScreenGui
+
+local TextButton_26 = Instance.new('TextButton')
+TextButton_26.Name = 'TextButton'
+TextButton_26.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_26.Position = UDim2.new(0.7600, 0, 0.0738, 0)
+TextButton_26.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_26.BackgroundTransparency = 0.00
+TextButton_26.Visible = true
+TextButton_26.Font = Enum.Font.SourceSansSemibold
+TextButton_26.Text = [[Sf remake v1.5]]
+TextButton_26.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_26.TextSize = 16.0
+TextButton_26.TextScaled = true
+TextButton_26.TextWrapped = true
+TextButton_26.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_26.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_26_corner = Instance.new('UICorner')
+TextButton_26_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_26_corner.Parent = TextButton_26
+local TextButton_26_stroke = Instance.new('UIStroke')
+TextButton_26_stroke.Thickness = 3
+TextButton_26_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_26_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_26_stroke.Parent = TextButton_26
+TextButton_26.Parent = ScreenGui
+
+local TextButton_27 = Instance.new('TextButton')
+TextButton_27.Name = 'TextButton'
+TextButton_27.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_27.Position = UDim2.new(0.7600, 0, 0.1476, 0)
+TextButton_27.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_27.BackgroundTransparency = 0.00
+TextButton_27.Visible = true
+TextButton_27.Font = Enum.Font.SourceSansSemibold
+TextButton_27.Text = [[Roxploitv5]]
+TextButton_27.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_27.TextSize = 16.0
+TextButton_27.TextScaled = true
+TextButton_27.TextWrapped = true
+TextButton_27.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_27.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_27_corner = Instance.new('UICorner')
+TextButton_27_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_27_corner.Parent = TextButton_27
+local TextButton_27_stroke = Instance.new('UIStroke')
+TextButton_27_stroke.Thickness = 3
+TextButton_27_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_27_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_27_stroke.Parent = TextButton_27
+TextButton_27.Parent = ScreenGui
+
+local TextButton_28 = Instance.new('TextButton')
+TextButton_28.Name = 'TextButton'
+TextButton_28.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_28.Position = UDim2.new(0.7600, 0, 0.2214, 0)
+TextButton_28.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_28.BackgroundTransparency = 0.00
+TextButton_28.Visible = true
+TextButton_28.Font = Enum.Font.SourceSansSemibold
+TextButton_28.Text = [[Rc7 by g00by]]
+TextButton_28.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_28.TextSize = 16.0
+TextButton_28.TextScaled = true
+TextButton_28.TextWrapped = true
+TextButton_28.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_28.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_28_corner = Instance.new('UICorner')
+TextButton_28_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_28_corner.Parent = TextButton_28
+local TextButton_28_stroke = Instance.new('UIStroke')
+TextButton_28_stroke.Thickness = 3
+TextButton_28_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_28_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_28_stroke.Parent = TextButton_28
+TextButton_28.Parent = ScreenGui
+
+local TextButton_29 = Instance.new('TextButton')
+TextButton_29.Name = 'TextButton'
+TextButton_29.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_29.Position = UDim2.new(0.7600, 0, 0.2952, 0)
+TextButton_29.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_29.BackgroundTransparency = 0.00
+TextButton_29.Visible = true
+TextButton_29.Font = Enum.Font.SourceSansSemibold
+TextButton_29.Text = [[k00pgui v10]]
+TextButton_29.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_29.TextSize = 16.0
+TextButton_29.TextScaled = true
+TextButton_29.TextWrapped = true
+TextButton_29.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_29.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_29_corner = Instance.new('UICorner')
+TextButton_29_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_29_corner.Parent = TextButton_29
+local TextButton_29_stroke = Instance.new('UIStroke')
+TextButton_29_stroke.Thickness = 3
+TextButton_29_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_29_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_29_stroke.Parent = TextButton_29
+TextButton_29.Parent = ScreenGui
+
+local TextButton_30 = Instance.new('TextButton')
+TextButton_30.Name = 'TextButton'
+TextButton_30.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_30.Position = UDim2.new(0.7600, 0, 0.3690, 0)
+TextButton_30.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_30.BackgroundTransparency = 0.00
+TextButton_30.Visible = true
+TextButton_30.Font = Enum.Font.SourceSansSemibold
+TextButton_30.Text = [[k00pgui v9]]
+TextButton_30.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_30.TextSize = 16.0
+TextButton_30.TextScaled = true
+TextButton_30.TextWrapped = true
+TextButton_30.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_30.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_30_corner = Instance.new('UICorner')
+TextButton_30_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_30_corner.Parent = TextButton_30
+local TextButton_30_stroke = Instance.new('UIStroke')
+TextButton_30_stroke.Thickness = 3
+TextButton_30_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_30_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_30_stroke.Parent = TextButton_30
+TextButton_30.Parent = ScreenGui
+
+local TextButton_31 = Instance.new('TextButton')
+TextButton_31.Name = 'TextButton'
+TextButton_31.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_31.Position = UDim2.new(0.7600, 0, 0.4428, 0)
+TextButton_31.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_31.BackgroundTransparency = 0.00
+TextButton_31.Visible = true
+TextButton_31.Font = Enum.Font.SourceSansSemibold
+TextButton_31.Text = [[Tank]]
+TextButton_31.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_31.TextSize = 16.0
+TextButton_31.TextScaled = true
+TextButton_31.TextWrapped = true
+TextButton_31.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_31.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_31_corner = Instance.new('UICorner')
+TextButton_31_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_31_corner.Parent = TextButton_31
+local TextButton_31_stroke = Instance.new('UIStroke')
+TextButton_31_stroke.Thickness = 3
+TextButton_31_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_31_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_31_stroke.Parent = TextButton_31
+TextButton_31.Parent = ScreenGui
+
+local TextButton_32 = Instance.new('TextButton')
+TextButton_32.Name = 'TextButton'
+TextButton_32.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_32.Position = UDim2.new(0.7500, 0, 0.5166, 0)
+TextButton_32.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_32.BackgroundTransparency = 0.00
+TextButton_32.Visible = true
+TextButton_32.Font = Enum.Font.SourceSansSemibold
+TextButton_32.Text = [[Obama]]
+TextButton_32.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_32.TextSize = 16.0
+TextButton_32.TextScaled = true
+TextButton_32.TextWrapped = true
+TextButton_32.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_32.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_32_corner = Instance.new('UICorner')
+TextButton_32_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_32_corner.Parent = TextButton_32
+local TextButton_32_stroke = Instance.new('UIStroke')
+TextButton_32_stroke.Thickness = 3
+TextButton_32_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_32_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_32_stroke.Parent = TextButton_32
+TextButton_32.Parent = ScreenGui
+
+local TextButton_33 = Instance.new('TextButton')
+TextButton_33.Name = 'TextButton'
+TextButton_33.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_33.Position = UDim2.new(0.7600, 0, 0.5904, 0)
+TextButton_33.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_33.BackgroundTransparency = 0.00
+TextButton_33.Visible = true
+TextButton_33.Font = Enum.Font.SourceSansSemibold
+TextButton_33.Text = [[saitama]]
+TextButton_33.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_33.TextSize = 16.0
+TextButton_33.TextScaled = true
+TextButton_33.TextWrapped = true
+TextButton_33.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_33.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_33_corner = Instance.new('UICorner')
+TextButton_33_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_33_corner.Parent = TextButton_33
+local TextButton_33_stroke = Instance.new('UIStroke')
+TextButton_33_stroke.Thickness = 3
+TextButton_33_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_33_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_33_stroke.Parent = TextButton_33
+TextButton_33.Parent = ScreenGui
+
+local TextButton_34 = Instance.new('TextButton')
+TextButton_34.Name = 'TextButton'
+TextButton_34.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_34.Position = UDim2.new(0.7500, 0, 0.6642, 0)
+TextButton_34.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_34.BackgroundTransparency = 0.00
+TextButton_34.Visible = true
+TextButton_34.Font = Enum.Font.SourceSansSemibold
+TextButton_34.Text = [[Nova exe]]
+TextButton_34.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_34.TextSize = 16.0
+TextButton_34.TextScaled = true
+TextButton_34.TextWrapped = true
+TextButton_34.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_34.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_34_corner = Instance.new('UICorner')
+TextButton_34_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_34_corner.Parent = TextButton_34
+local TextButton_34_stroke = Instance.new('UIStroke')
+TextButton_34_stroke.Thickness = 3
+TextButton_34_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_34_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_34_stroke.Parent = TextButton_34
+TextButton_34.Parent = ScreenGui
+
+local TextButton_35 = Instance.new('TextButton')
+TextButton_35.Name = 'TextButton'
+TextButton_35.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_35.Position = UDim2.new(0.7500, 0, 0.7380, 0)
+TextButton_35.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_35.BackgroundTransparency = 0.00
+TextButton_35.Visible = true
+TextButton_35.Font = Enum.Font.SourceSansSemibold
+TextButton_35.Text = [[d#g]]
+TextButton_35.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_35.TextSize = 16.0
+TextButton_35.TextScaled = true
+TextButton_35.TextWrapped = true
+TextButton_35.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_35.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_35_corner = Instance.new('UICorner')
+TextButton_35_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_35_corner.Parent = TextButton_35
+local TextButton_35_stroke = Instance.new('UIStroke')
+TextButton_35_stroke.Thickness = 3
+TextButton_35_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_35_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_35_stroke.Parent = TextButton_35
+TextButton_35.Parent = ScreenGui
+
+local TextButton_36 = Instance.new('TextButton')
+TextButton_36.Name = 'TextButton'
+TextButton_36.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_36.Position = UDim2.new(0.7500, 0, 0.8118, 0)
+TextButton_36.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_36.BackgroundTransparency = 0.00
+TextButton_36.Visible = true
+TextButton_36.Font = Enum.Font.SourceSansSemibold
+TextButton_36.Text = [[Anonymous particles]]
+TextButton_36.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_36.TextSize = 16.0
+TextButton_36.TextScaled = true
+TextButton_36.TextWrapped = true
+TextButton_36.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_36.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_36_corner = Instance.new('UICorner')
+TextButton_36_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_36_corner.Parent = TextButton_36
+local TextButton_36_stroke = Instance.new('UIStroke')
+TextButton_36_stroke.Thickness = 3
+TextButton_36_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_36_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_36_stroke.Parent = TextButton_36
+TextButton_36.Parent = ScreenGui
+
+local TextButton_37 = Instance.new('TextButton')
+TextButton_37.Name = 'TextButton'
+TextButton_37.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_37.Position = UDim2.new(0.8200, 0, 0.7565, 0)
+TextButton_37.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_37.BackgroundTransparency = 0.00
+TextButton_37.Visible = true
+TextButton_37.Font = Enum.Font.SourceSansSemibold
+TextButton_37.Text = [[Anonymous f3x gui]]
+TextButton_37.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_37.TextSize = 16.0
+TextButton_37.TextScaled = true
+TextButton_37.TextWrapped = true
+TextButton_37.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_37.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_37_corner = Instance.new('UICorner')
+TextButton_37_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_37_corner.Parent = TextButton_37
+local TextButton_37_stroke = Instance.new('UIStroke')
+TextButton_37_stroke.Thickness = 3
+TextButton_37_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_37_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_37_stroke.Parent = TextButton_37
+TextButton_37.Parent = ScreenGui
+
+local TextButton_38 = Instance.new('TextButton')
+TextButton_38.Name = 'TextButton'
+TextButton_38.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_38.Position = UDim2.new(0.8300, 0, 0.5351, 0)
+TextButton_38.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_38.BackgroundTransparency = 0.00
+TextButton_38.Visible = true
+TextButton_38.Font = Enum.Font.SourceSansSemibold
+TextButton_38.Text = [[skid gui]]
+TextButton_38.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_38.TextSize = 16.0
+TextButton_38.TextScaled = true
+TextButton_38.TextWrapped = true
+TextButton_38.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_38.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_38_corner = Instance.new('UICorner')
+TextButton_38_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_38_corner.Parent = TextButton_38
+local TextButton_38_stroke = Instance.new('UIStroke')
+TextButton_38_stroke.Thickness = 3
+TextButton_38_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_38_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_38_stroke.Parent = TextButton_38
+TextButton_38.Parent = ScreenGui
+
+local TextButton_39 = Instance.new('TextButton')
+TextButton_39.Name = 'TextButton'
+TextButton_39.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_39.Position = UDim2.new(0.8300, 0, 0.6458, 0)
+TextButton_39.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_39.BackgroundTransparency = 0.00
+TextButton_39.Visible = true
+TextButton_39.Font = Enum.Font.SourceSansSemibold
+TextButton_39.Text = [[k00p v3]]
+TextButton_39.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_39.TextSize = 16.0
+TextButton_39.TextScaled = true
+TextButton_39.TextWrapped = true
+TextButton_39.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_39.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_39_corner = Instance.new('UICorner')
+TextButton_39_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_39_corner.Parent = TextButton_39
+local TextButton_39_stroke = Instance.new('UIStroke')
+TextButton_39_stroke.Thickness = 3
+TextButton_39_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_39_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_39_stroke.Parent = TextButton_39
+TextButton_39.Parent = ScreenGui
+
+local TextButton_40 = Instance.new('TextButton')
+TextButton_40.Name = 'TextButton'
+TextButton_40.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_40.Position = UDim2.new(0.8400, 0, 0.4244, 0)
+TextButton_40.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_40.BackgroundTransparency = 0.00
+TextButton_40.Visible = true
+TextButton_40.Font = Enum.Font.SourceSansSemibold
+TextButton_40.Text = [[k_aax gui]]
+TextButton_40.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_40.TextSize = 16.0
+TextButton_40.TextScaled = true
+TextButton_40.TextWrapped = true
+TextButton_40.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_40.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_40_corner = Instance.new('UICorner')
+TextButton_40_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_40_corner.Parent = TextButton_40
+local TextButton_40_stroke = Instance.new('UIStroke')
+TextButton_40_stroke.Thickness = 3
+TextButton_40_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_40_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_40_stroke.Parent = TextButton_40
+TextButton_40.Parent = ScreenGui
+
+local TextButton_41 = Instance.new('TextButton')
+TextButton_41.Name = 'TextButton'
+TextButton_41.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_41.Position = UDim2.new(0.8300, 0, 0.3321, 0)
+TextButton_41.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_41.BackgroundTransparency = 0.00
+TextButton_41.Visible = true
+TextButton_41.Font = Enum.Font.SourceSansSemibold
+TextButton_41.Text = [[china]]
+TextButton_41.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_41.TextSize = 16.0
+TextButton_41.TextScaled = true
+TextButton_41.TextWrapped = true
+TextButton_41.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_41.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_41_corner = Instance.new('UICorner')
+TextButton_41_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_41_corner.Parent = TextButton_41
+local TextButton_41_stroke = Instance.new('UIStroke')
+TextButton_41_stroke.Thickness = 3
+TextButton_41_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_41_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_41_stroke.Parent = TextButton_41
+TextButton_41.Parent = ScreenGui
+
+local TextButton_42 = Instance.new('TextButton')
+TextButton_42.Name = 'TextButton'
+TextButton_42.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_42.Position = UDim2.new(0.8400, 0, 0.2399, 0)
+TextButton_42.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_42.BackgroundTransparency = 0.00
+TextButton_42.Visible = true
+TextButton_42.Font = Enum.Font.SourceSansSemibold
+TextButton_42.Text = [[c00lgui]]
+TextButton_42.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_42.TextSize = 16.0
+TextButton_42.TextScaled = true
+TextButton_42.TextWrapped = true
+TextButton_42.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_42.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_42_corner = Instance.new('UICorner')
+TextButton_42_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_42_corner.Parent = TextButton_42
+local TextButton_42_stroke = Instance.new('UIStroke')
+TextButton_42_stroke.Thickness = 3
+TextButton_42_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_42_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_42_stroke.Parent = TextButton_42
+TextButton_42.Parent = ScreenGui
+
+local TextButton_43 = Instance.new('TextButton')
+TextButton_43.Name = 'TextButton'
+TextButton_43.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_43.Position = UDim2.new(0.8400, 0, 0.1476, 0)
+TextButton_43.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_43.BackgroundTransparency = 0.00
+TextButton_43.Visible = true
+TextButton_43.Font = Enum.Font.SourceSansSemibold
+TextButton_43.Text = [[k00pgui delta remake]]
+TextButton_43.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_43.TextSize = 16.0
+TextButton_43.TextScaled = true
+TextButton_43.TextWrapped = true
+TextButton_43.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_43.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_43_corner = Instance.new('UICorner')
+TextButton_43_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_43_corner.Parent = TextButton_43
+local TextButton_43_stroke = Instance.new('UIStroke')
+TextButton_43_stroke.Thickness = 3
+TextButton_43_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_43_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_43_stroke.Parent = TextButton_43
+TextButton_43.Parent = ScreenGui
+
+local TextButton_44 = Instance.new('TextButton')
+TextButton_44.Name = 'TextButton'
+TextButton_44.Size = UDim2.new(0.0750, 0, 0.0100, 20)
+TextButton_44.Position = UDim2.new(0.8400, 0, 0.0369, 0)
+TextButton_44.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_44.BackgroundTransparency = 0.00
+TextButton_44.Visible = true
+TextButton_44.Font = Enum.Font.SourceSansSemibold
+TextButton_44.Text = [[BLUE2GUI V1]]
+TextButton_44.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_44.TextSize = 16.0
+TextButton_44.TextScaled = true
+TextButton_44.TextWrapped = true
+TextButton_44.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_44.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_44_corner = Instance.new('UICorner')
+TextButton_44_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_44_corner.Parent = TextButton_44
+local TextButton_44_stroke = Instance.new('UIStroke')
+TextButton_44_stroke.Thickness = 3
+TextButton_44_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_44_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_44_stroke.Parent = TextButton_44
+TextButton_44.Parent = ScreenGui
+
+local TextButton_45 = Instance.new('TextButton')
+TextButton_45.Name = 'TextButton'
+TextButton_45.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_45.Position = UDim2.new(0.0000, 0, 0.0932, 0)
+TextButton_45.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_45.BackgroundTransparency = 0.00
+TextButton_45.Visible = true
+TextButton_45.Font = Enum.Font.SourceSansSemibold
+TextButton_45.Text = [[Tc0liffy v6]]
+TextButton_45.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_45.TextSize = 16.0
+TextButton_45.TextScaled = true
+TextButton_45.TextWrapped = true
+TextButton_45.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_45.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_45_corner = Instance.new('UICorner')
+TextButton_45_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_45_corner.Parent = TextButton_45
+local TextButton_45_stroke = Instance.new('UIStroke')
+TextButton_45_stroke.Thickness = 3
+TextButton_45_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_45_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_45_stroke.Parent = TextButton_45
+TextButton_45.Parent = coffemap_1
+
+local TextButton_46 = Instance.new('TextButton')
+TextButton_46.Name = 'TextButton'
+TextButton_46.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_46.Position = UDim2.new(0.1600, 0, 0.0932, 0)
+TextButton_46.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_46.BackgroundTransparency = 0.00
+TextButton_46.Visible = true
+TextButton_46.Font = Enum.Font.SourceSansSemibold
+TextButton_46.Text = [[BOOMB NUCLEAR]]
+TextButton_46.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_46.TextSize = 16.0
+TextButton_46.TextScaled = true
+TextButton_46.TextWrapped = true
+TextButton_46.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_46.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_46_corner = Instance.new('UICorner')
+TextButton_46_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_46_corner.Parent = TextButton_46
+local TextButton_46_stroke = Instance.new('UIStroke')
+TextButton_46_stroke.Thickness = 3
+TextButton_46_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_46_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_46_stroke.Parent = TextButton_46
+TextButton_46.Parent = coffemap_1
+
+local TextButton_47 = Instance.new('TextButton')
+TextButton_47.Name = 'TextButton'
+TextButton_47.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_47.Position = UDim2.new(0.3200, 0, 0.0932, 0)
+TextButton_47.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_47.BackgroundTransparency = 0.00
+TextButton_47.Visible = true
+TextButton_47.Font = Enum.Font.SourceSansSemibold
+TextButton_47.Text = [[lazytown sky]]
+TextButton_47.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_47.TextSize = 16.0
+TextButton_47.TextScaled = true
+TextButton_47.TextWrapped = true
+TextButton_47.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_47.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_47_corner = Instance.new('UICorner')
+TextButton_47_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_47_corner.Parent = TextButton_47
+local TextButton_47_stroke = Instance.new('UIStroke')
+TextButton_47_stroke.Thickness = 3
+TextButton_47_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_47_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_47_stroke.Parent = TextButton_47
+TextButton_47.Parent = coffemap_1
+
+local TextButton_48 = Instance.new('TextButton')
+TextButton_48.Name = 'TextButton'
+TextButton_48.Size = UDim2.new(0.1000, 200, 0.0200, 10)
+TextButton_48.Position = UDim2.new(0.4800, 0, 0.0932, 0)
+TextButton_48.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_48.BackgroundTransparency = 0.00
+TextButton_48.Visible = true
+TextButton_48.Font = Enum.Font.SourceSansSemibold
+TextButton_48.Text = [[N00b giant cannoneer]]
+TextButton_48.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_48.TextSize = 16.0
+TextButton_48.TextScaled = true
+TextButton_48.TextWrapped = true
+TextButton_48.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_48.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_48_corner = Instance.new('UICorner')
+TextButton_48_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_48_corner.Parent = TextButton_48
+local TextButton_48_stroke = Instance.new('UIStroke')
+TextButton_48_stroke.Thickness = 3
+TextButton_48_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_48_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_48_stroke.Parent = TextButton_48
+TextButton_48.Parent = coffemap_1
+
+local TextButton_49 = Instance.new('TextButton')
+TextButton_49.Name = 'TextButton'
+TextButton_49.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_49.Position = UDim2.new(0.0000, 0, 0.1491, 0)
+TextButton_49.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_49.BackgroundTransparency = 0.00
+TextButton_49.Visible = true
+TextButton_49.Font = Enum.Font.SourceSansSemibold
+TextButton_49.Text = [[Snoop D0G SKY]]
+TextButton_49.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_49.TextSize = 16.0
+TextButton_49.TextScaled = true
+TextButton_49.TextWrapped = true
+TextButton_49.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_49.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_49_corner = Instance.new('UICorner')
+TextButton_49_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_49_corner.Parent = TextButton_49
+local TextButton_49_stroke = Instance.new('UIStroke')
+TextButton_49_stroke.Thickness = 3
+TextButton_49_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_49_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_49_stroke.Parent = TextButton_49
+TextButton_49.Parent = coffemap_1
+
+local TextButton_50 = Instance.new('TextButton')
+TextButton_50.Name = 'TextButton'
+TextButton_50.Size = UDim2.new(0.1000, 100, 0.0200, 10)
+TextButton_50.Position = UDim2.new(0.1600, 0, 0.1491, 0)
+TextButton_50.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_50.BackgroundTransparency = 0.00
+TextButton_50.Visible = true
+TextButton_50.Font = Enum.Font.SourceSansSemibold
+TextButton_50.Text = [[Anonymous gui Leaked]]
+TextButton_50.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_50.TextSize = 16.0
+TextButton_50.TextScaled = true
+TextButton_50.TextWrapped = true
+TextButton_50.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_50.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_50_corner = Instance.new('UICorner')
+TextButton_50_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_50_corner.Parent = TextButton_50
+local TextButton_50_stroke = Instance.new('UIStroke')
+TextButton_50_stroke.Thickness = 3
+TextButton_50_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_50_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_50_stroke.Parent = TextButton_50
+TextButton_50.Parent = coffemap_1
+
+local TextButton_51 = Instance.new('TextButton')
+TextButton_51.Name = 'TextButton'
+TextButton_51.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_51.Position = UDim2.new(0.4800, 0, 0.1491, 0)
+TextButton_51.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_51.BackgroundTransparency = 0.00
+TextButton_51.Visible = true
+TextButton_51.Font = Enum.Font.SourceSansSemibold
+TextButton_51.Text = [[Nexus X]]
+TextButton_51.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_51.TextSize = 16.0
+TextButton_51.TextScaled = true
+TextButton_51.TextWrapped = true
+TextButton_51.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_51.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_51_corner = Instance.new('UICorner')
+TextButton_51_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_51_corner.Parent = TextButton_51
+local TextButton_51_stroke = Instance.new('UIStroke')
+TextButton_51_stroke.Thickness = 3
+TextButton_51_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_51_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_51_stroke.Parent = TextButton_51
+TextButton_51.Parent = coffemap_1
+
+local TextButton_52 = Instance.new('TextButton')
+TextButton_52.Name = 'TextButton'
+TextButton_52.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_52.Position = UDim2.new(0.6400, 0, 0.1491, 0)
+TextButton_52.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_52.BackgroundTransparency = 0.00
+TextButton_52.Visible = true
+TextButton_52.Font = Enum.Font.SourceSansSemibold
+TextButton_52.Text = [[Dynamic]]
+TextButton_52.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_52.TextSize = 16.0
+TextButton_52.TextScaled = true
+TextButton_52.TextWrapped = true
+TextButton_52.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_52.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_52_corner = Instance.new('UICorner')
+TextButton_52_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_52_corner.Parent = TextButton_52
+local TextButton_52_stroke = Instance.new('UIStroke')
+TextButton_52_stroke.Thickness = 3
+TextButton_52_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_52_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_52_stroke.Parent = TextButton_52
+TextButton_52.Parent = coffemap_1
+
+local TextButton_53 = Instance.new('TextButton')
+TextButton_53.Name = 'TextButton'
+TextButton_53.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_53.Position = UDim2.new(0.8000, 0, 0.1491, 0)
+TextButton_53.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_53.BackgroundTransparency = 0.00
+TextButton_53.Visible = true
+TextButton_53.Font = Enum.Font.SourceSansSemibold
+TextButton_53.Text = [[Debugguer]]
+TextButton_53.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_53.TextSize = 16.0
+TextButton_53.TextScaled = true
+TextButton_53.TextWrapped = true
+TextButton_53.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_53.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_53_corner = Instance.new('UICorner')
+TextButton_53_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_53_corner.Parent = TextButton_53
+local TextButton_53_stroke = Instance.new('UIStroke')
+TextButton_53_stroke.Thickness = 3
+TextButton_53_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_53_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_53_stroke.Parent = TextButton_53
+TextButton_53.Parent = coffemap_1
+
+local TextButton_54 = Instance.new('TextButton')
+TextButton_54.Name = 'TextButton'
+TextButton_54.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_54.Position = UDim2.new(0.8000, 0, 0.2050, 0)
+TextButton_54.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_54.BackgroundTransparency = 0.00
+TextButton_54.Visible = true
+TextButton_54.Font = Enum.Font.SourceSansSemibold
+TextButton_54.Text = [[external Gui]]
+TextButton_54.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_54.TextSize = 16.0
+TextButton_54.TextScaled = true
+TextButton_54.TextWrapped = true
+TextButton_54.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_54.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_54_corner = Instance.new('UICorner')
+TextButton_54_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_54_corner.Parent = TextButton_54
+local TextButton_54_stroke = Instance.new('UIStroke')
+TextButton_54_stroke.Thickness = 3
+TextButton_54_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_54_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_54_stroke.Parent = TextButton_54
+TextButton_54.Parent = coffemap_1
+
+local TextButton_55 = Instance.new('TextButton')
+TextButton_55.Name = 'TextButton'
+TextButton_55.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_55.Position = UDim2.new(0.6400, 0, 0.2050, 0)
+TextButton_55.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_55.BackgroundTransparency = 0.00
+TextButton_55.Visible = true
+TextButton_55.Font = Enum.Font.SourceSansSemibold
+TextButton_55.Text = [[segma v3]]
+TextButton_55.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_55.TextSize = 16.0
+TextButton_55.TextScaled = true
+TextButton_55.TextWrapped = true
+TextButton_55.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_55.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_55_corner = Instance.new('UICorner')
+TextButton_55_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_55_corner.Parent = TextButton_55
+local TextButton_55_stroke = Instance.new('UIStroke')
+TextButton_55_stroke.Thickness = 3
+TextButton_55_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_55_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_55_stroke.Parent = TextButton_55
+TextButton_55.Parent = coffemap_1
+
+local TextButton_56 = Instance.new('TextButton')
+TextButton_56.Name = 'TextButton'
+TextButton_56.Size = UDim2.new(0.1000, 20, 0.0200, 44)
+TextButton_56.Position = UDim2.new(0.4800, 0, 0.2050, 0)
+TextButton_56.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_56.BackgroundTransparency = 0.00
+TextButton_56.Visible = true
+TextButton_56.Font = Enum.Font.SourceSansSemibold
+TextButton_56.Text = [[Ligma require fe]]
+TextButton_56.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_56.TextSize = 16.0
+TextButton_56.TextScaled = true
+TextButton_56.TextWrapped = true
+TextButton_56.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_56.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_56_corner = Instance.new('UICorner')
+TextButton_56_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_56_corner.Parent = TextButton_56
+local TextButton_56_stroke = Instance.new('UIStroke')
+TextButton_56_stroke.Thickness = 3
+TextButton_56_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_56_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_56_stroke.Parent = TextButton_56
+TextButton_56.Parent = coffemap_1
+
+local TextButton_57 = Instance.new('TextButton')
+TextButton_57.Name = 'TextButton'
+TextButton_57.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_57.Position = UDim2.new(0.3200, 0, 0.2050, 0)
+TextButton_57.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_57.BackgroundTransparency = 0.00
+TextButton_57.Visible = true
+TextButton_57.Font = Enum.Font.SourceSansSemibold
+TextButton_57.Text = [[project ballz]]
+TextButton_57.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_57.TextSize = 16.0
+TextButton_57.TextScaled = true
+TextButton_57.TextWrapped = true
+TextButton_57.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_57.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_57_corner = Instance.new('UICorner')
+TextButton_57_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_57_corner.Parent = TextButton_57
+local TextButton_57_stroke = Instance.new('UIStroke')
+TextButton_57_stroke.Thickness = 3
+TextButton_57_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_57_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_57_stroke.Parent = TextButton_57
+TextButton_57.Parent = coffemap_1
+
+local TextButton_58 = Instance.new('TextButton')
+TextButton_58.Name = 'TextButton'
+TextButton_58.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_58.Position = UDim2.new(0.1600, 0, 0.2050, 0)
+TextButton_58.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_58.BackgroundTransparency = 0.00
+TextButton_58.Visible = true
+TextButton_58.Font = Enum.Font.SourceSansSemibold
+TextButton_58.Text = [[Project duck UTG]]
+TextButton_58.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_58.TextSize = 16.0
+TextButton_58.TextScaled = true
+TextButton_58.TextWrapped = true
+TextButton_58.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_58.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_58_corner = Instance.new('UICorner')
+TextButton_58_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_58_corner.Parent = TextButton_58
+local TextButton_58_stroke = Instance.new('UIStroke')
+TextButton_58_stroke.Thickness = 3
+TextButton_58_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_58_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_58_stroke.Parent = TextButton_58
+TextButton_58.Parent = coffemap_1
+
+local TextButton_59 = Instance.new('TextButton')
+TextButton_59.Name = 'TextButton'
+TextButton_59.Size = UDim2.new(0.1000, 100, 0.0200, 10)
+TextButton_59.Position = UDim2.new(0.0000, 0, 0.2609, 0)
+TextButton_59.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_59.BackgroundTransparency = 0.00
+TextButton_59.Visible = true
+TextButton_59.Font = Enum.Font.SourceSansSemibold
+TextButton_59.Text = [[Project megma v2]]
+TextButton_59.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_59.TextSize = 16.0
+TextButton_59.TextScaled = true
+TextButton_59.TextWrapped = true
+TextButton_59.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_59.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_59_corner = Instance.new('UICorner')
+TextButton_59_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_59_corner.Parent = TextButton_59
+local TextButton_59_stroke = Instance.new('UIStroke')
+TextButton_59_stroke.Thickness = 3
+TextButton_59_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_59_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_59_stroke.Parent = TextButton_59
+TextButton_59.Parent = coffemap_1
+
+local TextButton_60 = Instance.new('TextButton')
+TextButton_60.Name = 'TextButton'
+TextButton_60.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_60.Position = UDim2.new(0.0000, 0, 0.2050, 0)
+TextButton_60.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_60.BackgroundTransparency = 0.00
+TextButton_60.Visible = true
+TextButton_60.Font = Enum.Font.SourceSansSemibold
+TextButton_60.Text = [[Project Zaga]]
+TextButton_60.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_60.TextSize = 16.0
+TextButton_60.TextScaled = true
+TextButton_60.TextWrapped = true
+TextButton_60.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_60.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_60_corner = Instance.new('UICorner')
+TextButton_60_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_60_corner.Parent = TextButton_60
+local TextButton_60_stroke = Instance.new('UIStroke')
+TextButton_60_stroke.Thickness = 3
+TextButton_60_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_60_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_60_stroke.Parent = TextButton_60
+TextButton_60.Parent = coffemap_1
+
+local TextButton_61 = Instance.new('TextButton')
+TextButton_61.Name = 'TextButton'
+TextButton_61.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_61.Position = UDim2.new(0.6400, 0, 0.2609, 0)
+TextButton_61.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_61.BackgroundTransparency = 0.00
+TextButton_61.Visible = true
+TextButton_61.Font = Enum.Font.SourceSansSemibold
+TextButton_61.Text = [[SG RED GUI]]
+TextButton_61.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_61.TextSize = 16.0
+TextButton_61.TextScaled = true
+TextButton_61.TextWrapped = true
+TextButton_61.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_61.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_61_corner = Instance.new('UICorner')
+TextButton_61_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_61_corner.Parent = TextButton_61
+local TextButton_61_stroke = Instance.new('UIStroke')
+TextButton_61_stroke.Thickness = 3
+TextButton_61_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_61_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_61_stroke.Parent = TextButton_61
+TextButton_61.Parent = coffemap_1
+
+local TextButton_62 = Instance.new('TextButton')
+TextButton_62.Name = 'TextButton'
+TextButton_62.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_62.Position = UDim2.new(0.8000, 0, 0.2609, 0)
+TextButton_62.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_62.BackgroundTransparency = 0.00
+TextButton_62.Visible = true
+TextButton_62.Font = Enum.Font.SourceSansSemibold
+TextButton_62.Text = [[cle0n Gui]]
+TextButton_62.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_62.TextSize = 16.0
+TextButton_62.TextScaled = true
+TextButton_62.TextWrapped = true
+TextButton_62.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_62.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_62_corner = Instance.new('UICorner')
+TextButton_62_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_62_corner.Parent = TextButton_62
+local TextButton_62_stroke = Instance.new('UIStroke')
+TextButton_62_stroke.Thickness = 3
+TextButton_62_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_62_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_62_stroke.Parent = TextButton_62
+TextButton_62.Parent = coffemap_1
+
+local TextButton_63 = Instance.new('TextButton')
+TextButton_63.Name = 'TextButton'
+TextButton_63.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_63.Position = UDim2.new(0.3200, 0, 0.2609, 0)
+TextButton_63.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_63.BackgroundTransparency = 0.00
+TextButton_63.Visible = true
+TextButton_63.Font = Enum.Font.SourceSansSemibold
+TextButton_63.Text = [[Mango gui]]
+TextButton_63.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_63.TextSize = 16.0
+TextButton_63.TextScaled = true
+TextButton_63.TextWrapped = true
+TextButton_63.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_63.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_63_corner = Instance.new('UICorner')
+TextButton_63_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_63_corner.Parent = TextButton_63
+local TextButton_63_stroke = Instance.new('UIStroke')
+TextButton_63_stroke.Thickness = 3
+TextButton_63_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_63_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_63_stroke.Parent = TextButton_63
+TextButton_63.Parent = coffemap_1
+
+local TextButton_64 = Instance.new('TextButton')
+TextButton_64.Name = 'TextButton'
+TextButton_64.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_64.Position = UDim2.new(0.8000, 0, 0.3168, 0)
+TextButton_64.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_64.BackgroundTransparency = 0.00
+TextButton_64.Visible = true
+TextButton_64.Font = Enum.Font.SourceSansSemibold
+TextButton_64.Text = [[UTG REBORN BY FK]]
+TextButton_64.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_64.TextSize = 16.0
+TextButton_64.TextScaled = true
+TextButton_64.TextWrapped = true
+TextButton_64.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_64.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_64_corner = Instance.new('UICorner')
+TextButton_64_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_64_corner.Parent = TextButton_64
+local TextButton_64_stroke = Instance.new('UIStroke')
+TextButton_64_stroke.Thickness = 3
+TextButton_64_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_64_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_64_stroke.Parent = TextButton_64
+TextButton_64.Parent = coffemap_1
+
+local TextButton_65 = Instance.new('TextButton')
+TextButton_65.Name = 'TextButton'
+TextButton_65.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_65.Position = UDim2.new(0.6400, 0, 0.3168, 0)
+TextButton_65.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_65.BackgroundTransparency = 0.00
+TextButton_65.Visible = true
+TextButton_65.Font = Enum.Font.SourceSansSemibold
+TextButton_65.Text = [[911 Plane]]
+TextButton_65.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_65.TextSize = 16.0
+TextButton_65.TextScaled = true
+TextButton_65.TextWrapped = true
+TextButton_65.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_65.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_65_corner = Instance.new('UICorner')
+TextButton_65_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_65_corner.Parent = TextButton_65
+local TextButton_65_stroke = Instance.new('UIStroke')
+TextButton_65_stroke.Thickness = 3
+TextButton_65_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_65_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_65_stroke.Parent = TextButton_65
+TextButton_65.Parent = coffemap_1
+
+local TextButton_66 = Instance.new('TextButton')
+TextButton_66.Name = 'TextButton'
+TextButton_66.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_66.Position = UDim2.new(0.4800, 0, 0.3168, 0)
+TextButton_66.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_66.BackgroundTransparency = 0.00
+TextButton_66.Visible = true
+TextButton_66.Font = Enum.Font.SourceSansSemibold
+TextButton_66.Text = [[Void boss v3]]
+TextButton_66.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_66.TextSize = 16.0
+TextButton_66.TextScaled = true
+TextButton_66.TextWrapped = true
+TextButton_66.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_66.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_66_corner = Instance.new('UICorner')
+TextButton_66_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_66_corner.Parent = TextButton_66
+local TextButton_66_stroke = Instance.new('UIStroke')
+TextButton_66_stroke.Thickness = 3
+TextButton_66_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_66_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_66_stroke.Parent = TextButton_66
+TextButton_66.Parent = coffemap_1
+
+local TextButton_67 = Instance.new('TextButton')
+TextButton_67.Name = 'TextButton'
+TextButton_67.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_67.Position = UDim2.new(0.3200, 0, 0.3168, 0)
+TextButton_67.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_67.BackgroundTransparency = 0.00
+TextButton_67.Visible = true
+TextButton_67.Font = Enum.Font.SourceSansSemibold
+TextButton_67.Text = [[Big smoke]]
+TextButton_67.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_67.TextSize = 16.0
+TextButton_67.TextScaled = true
+TextButton_67.TextWrapped = true
+TextButton_67.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_67.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_67_corner = Instance.new('UICorner')
+TextButton_67_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_67_corner.Parent = TextButton_67
+local TextButton_67_stroke = Instance.new('UIStroke')
+TextButton_67_stroke.Thickness = 3
+TextButton_67_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_67_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_67_stroke.Parent = TextButton_67
+TextButton_67.Parent = coffemap_1
+
+local TextButton_68 = Instance.new('TextButton')
+TextButton_68.Name = 'TextButton'
+TextButton_68.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_68.Position = UDim2.new(0.1600, 0, 0.3168, 0)
+TextButton_68.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_68.BackgroundTransparency = 0.00
+TextButton_68.Visible = true
+TextButton_68.Font = Enum.Font.SourceSansSemibold
+TextButton_68.Text = [[Pee]]
+TextButton_68.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_68.TextSize = 16.0
+TextButton_68.TextScaled = true
+TextButton_68.TextWrapped = true
+TextButton_68.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_68.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_68_corner = Instance.new('UICorner')
+TextButton_68_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_68_corner.Parent = TextButton_68
+local TextButton_68_stroke = Instance.new('UIStroke')
+TextButton_68_stroke.Thickness = 3
+TextButton_68_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_68_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_68_stroke.Parent = TextButton_68
+TextButton_68.Parent = coffemap_1
+
+local TextButton_69 = Instance.new('TextButton')
+TextButton_69.Name = 'TextButton'
+TextButton_69.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_69.Position = UDim2.new(0.0000, 0, 0.3168, 0)
+TextButton_69.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_69.BackgroundTransparency = 0.00
+TextButton_69.Visible = true
+TextButton_69.Font = Enum.Font.SourceSansSemibold
+TextButton_69.Text = [[w00mGui v2]]
+TextButton_69.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_69.TextSize = 16.0
+TextButton_69.TextScaled = true
+TextButton_69.TextWrapped = true
+TextButton_69.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_69.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_69_corner = Instance.new('UICorner')
+TextButton_69_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_69_corner.Parent = TextButton_69
+local TextButton_69_stroke = Instance.new('UIStroke')
+TextButton_69_stroke.Thickness = 3
+TextButton_69_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_69_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_69_stroke.Parent = TextButton_69
+TextButton_69.Parent = coffemap_1
+
+local TextButton_70 = Instance.new('TextButton')
+TextButton_70.Name = 'TextButton'
+TextButton_70.Size = UDim2.new(0.1000, 450, 0.0200, 10)
+TextButton_70.Position = UDim2.new(0.0000, 0, 0.3727, 0)
+TextButton_70.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_70.BackgroundTransparency = 0.00
+TextButton_70.Visible = true
+TextButton_70.Font = Enum.Font.SourceSansSemibold
+TextButton_70.Text = [[cle0n Gui v2.0 ("EDIT ONE GUI*]]
+TextButton_70.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_70.TextSize = 16.0
+TextButton_70.TextScaled = true
+TextButton_70.TextWrapped = true
+TextButton_70.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_70.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_70_corner = Instance.new('UICorner')
+TextButton_70_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_70_corner.Parent = TextButton_70
+local TextButton_70_stroke = Instance.new('UIStroke')
+TextButton_70_stroke.Thickness = 3
+TextButton_70_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_70_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_70_stroke.Parent = TextButton_70
+TextButton_70.Parent = coffemap_1
+
+local TextButton_71 = Instance.new('TextButton')
+TextButton_71.Name = 'TextButton'
+TextButton_71.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_71.Position = UDim2.new(0.0000, 0, 0.4286, 0)
+TextButton_71.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_71.BackgroundTransparency = 0.00
+TextButton_71.Visible = true
+TextButton_71.Font = Enum.Font.SourceSansSemibold
+TextButton_71.Text = [[giant Size ]]
+TextButton_71.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_71.TextSize = 16.0
+TextButton_71.TextScaled = true
+TextButton_71.TextWrapped = true
+TextButton_71.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_71.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_71_corner = Instance.new('UICorner')
+TextButton_71_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_71_corner.Parent = TextButton_71
+local TextButton_71_stroke = Instance.new('UIStroke')
+TextButton_71_stroke.Thickness = 3
+TextButton_71_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_71_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_71_stroke.Parent = TextButton_71
+TextButton_71.Parent = coffemap_1
+
+local TextButton_72 = Instance.new('TextButton')
+TextButton_72.Name = 'TextButton'
+TextButton_72.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_72.Position = UDim2.new(0.1600, 0, 0.4286, 0)
+TextButton_72.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_72.BackgroundTransparency = 0.00
+TextButton_72.Visible = true
+TextButton_72.Font = Enum.Font.SourceSansSemibold
+TextButton_72.Text = [[Chara]]
+TextButton_72.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_72.TextSize = 16.0
+TextButton_72.TextScaled = true
+TextButton_72.TextWrapped = true
+TextButton_72.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_72.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_72_corner = Instance.new('UICorner')
+TextButton_72_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_72_corner.Parent = TextButton_72
+local TextButton_72_stroke = Instance.new('UIStroke')
+TextButton_72_stroke.Thickness = 3
+TextButton_72_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_72_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_72_stroke.Parent = TextButton_72
+TextButton_72.Parent = coffemap_1
+
+local TextButton_73 = Instance.new('TextButton')
+TextButton_73.Name = 'TextButton'
+TextButton_73.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_73.Position = UDim2.new(0.3200, 0, 0.4286, 0)
+TextButton_73.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_73.BackgroundTransparency = 0.00
+TextButton_73.Visible = true
+TextButton_73.Font = Enum.Font.SourceSansSemibold
+TextButton_73.Text = [[titan epic]]
+TextButton_73.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_73.TextSize = 16.0
+TextButton_73.TextScaled = true
+TextButton_73.TextWrapped = true
+TextButton_73.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_73.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_73_corner = Instance.new('UICorner')
+TextButton_73_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_73_corner.Parent = TextButton_73
+local TextButton_73_stroke = Instance.new('UIStroke')
+TextButton_73_stroke.Thickness = 3
+TextButton_73_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_73_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_73_stroke.Parent = TextButton_73
+TextButton_73.Parent = coffemap_1
+
+local TextButton_74 = Instance.new('TextButton')
+TextButton_74.Name = 'TextButton'
+TextButton_74.Size = UDim2.new(0.1000, 210, 0.0200, 10)
+TextButton_74.Position = UDim2.new(0.4800, 0, 0.4286, 0)
+TextButton_74.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_74.BackgroundTransparency = 0.00
+TextButton_74.Visible = true
+TextButton_74.Font = Enum.Font.SourceSansSemibold
+TextButton_74.Text = [[Dominant executor v5. 1.0]]
+TextButton_74.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_74.TextSize = 16.0
+TextButton_74.TextScaled = true
+TextButton_74.TextWrapped = true
+TextButton_74.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_74.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_74_corner = Instance.new('UICorner')
+TextButton_74_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_74_corner.Parent = TextButton_74
+local TextButton_74_stroke = Instance.new('UIStroke')
+TextButton_74_stroke.Thickness = 3
+TextButton_74_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_74_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_74_stroke.Parent = TextButton_74
+TextButton_74.Parent = coffemap_1
+
+local TextButton_75 = Instance.new('TextButton')
+TextButton_75.Name = 'TextButton'
+TextButton_75.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_75.Position = UDim2.new(0.0000, 0, 0.4846, 0)
+TextButton_75.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_75.BackgroundTransparency = 0.00
+TextButton_75.Visible = true
+TextButton_75.Font = Enum.Font.SourceSansSemibold
+TextButton_75.Text = [[rc7 2016]]
+TextButton_75.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_75.TextSize = 16.0
+TextButton_75.TextScaled = true
+TextButton_75.TextWrapped = true
+TextButton_75.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_75.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_75_corner = Instance.new('UICorner')
+TextButton_75_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_75_corner.Parent = TextButton_75
+local TextButton_75_stroke = Instance.new('UIStroke')
+TextButton_75_stroke.Thickness = 3
+TextButton_75_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_75_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_75_stroke.Parent = TextButton_75
+TextButton_75.Parent = coffemap_1
+
+local TextButton_76 = Instance.new('TextButton')
+TextButton_76.Name = 'TextButton'
+TextButton_76.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_76.Position = UDim2.new(0.1600, 0, 0.4846, 0)
+TextButton_76.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_76.BackgroundTransparency = 0.00
+TextButton_76.Visible = true
+TextButton_76.Font = Enum.Font.SourceSansSemibold
+TextButton_76.Text = [[Mini admin Gui]]
+TextButton_76.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_76.TextSize = 16.0
+TextButton_76.TextScaled = true
+TextButton_76.TextWrapped = true
+TextButton_76.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_76.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_76_corner = Instance.new('UICorner')
+TextButton_76_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_76_corner.Parent = TextButton_76
+local TextButton_76_stroke = Instance.new('UIStroke')
+TextButton_76_stroke.Thickness = 3
+TextButton_76_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_76_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_76_stroke.Parent = TextButton_76
+TextButton_76.Parent = coffemap_1
+
+local TextButton_77 = Instance.new('TextButton')
+TextButton_77.Name = 'TextButton'
+TextButton_77.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_77.Position = UDim2.new(0.3200, 0, 0.4846, 0)
+TextButton_77.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_77.BackgroundTransparency = 0.00
+TextButton_77.Visible = true
+TextButton_77.Font = Enum.Font.SourceSansSemibold
+TextButton_77.Text = [[GUNS REQUIRE]]
+TextButton_77.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_77.TextSize = 16.0
+TextButton_77.TextScaled = true
+TextButton_77.TextWrapped = true
+TextButton_77.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_77.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_77_corner = Instance.new('UICorner')
+TextButton_77_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_77_corner.Parent = TextButton_77
+local TextButton_77_stroke = Instance.new('UIStroke')
+TextButton_77_stroke.Thickness = 3
+TextButton_77_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_77_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_77_stroke.Parent = TextButton_77
+TextButton_77.Parent = coffemap_1
+
+local TextButton_78 = Instance.new('TextButton')
+TextButton_78.Name = 'TextButton'
+TextButton_78.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_78.Position = UDim2.new(0.4800, 0, 0.4846, 0)
+TextButton_78.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_78.BackgroundTransparency = 0.00
+TextButton_78.Visible = true
+TextButton_78.Font = Enum.Font.SourceSansSemibold
+TextButton_78.Text = [[n#zy map]]
+TextButton_78.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_78.TextSize = 16.0
+TextButton_78.TextScaled = true
+TextButton_78.TextWrapped = true
+TextButton_78.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_78.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_78_corner = Instance.new('UICorner')
+TextButton_78_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_78_corner.Parent = TextButton_78
+local TextButton_78_stroke = Instance.new('UIStroke')
+TextButton_78_stroke.Thickness = 3
+TextButton_78_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_78_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_78_stroke.Parent = TextButton_78
+TextButton_78.Parent = coffemap_1
+
+local TextButton_79 = Instance.new('TextButton')
+TextButton_79.Name = 'TextButton'
+TextButton_79.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_79.Position = UDim2.new(0.6400, 0, 0.4846, 0)
+TextButton_79.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_79.BackgroundTransparency = 0.00
+TextButton_79.Visible = true
+TextButton_79.Font = Enum.Font.SourceSansSemibold
+TextButton_79.Text = [[Tower]]
+TextButton_79.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_79.TextSize = 16.0
+TextButton_79.TextScaled = true
+TextButton_79.TextWrapped = true
+TextButton_79.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_79.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_79_corner = Instance.new('UICorner')
+TextButton_79_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_79_corner.Parent = TextButton_79
+local TextButton_79_stroke = Instance.new('UIStroke')
+TextButton_79_stroke.Thickness = 3
+TextButton_79_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_79_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_79_stroke.Parent = TextButton_79
+TextButton_79.Parent = coffemap_1
+
+local TextButton_80 = Instance.new('TextButton')
+TextButton_80.Name = 'TextButton'
+TextButton_80.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_80.Position = UDim2.new(0.8000, 0, 0.4846, 0)
+TextButton_80.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_80.BackgroundTransparency = 0.00
+TextButton_80.Visible = true
+TextButton_80.Font = Enum.Font.SourceSansSemibold
+TextButton_80.Text = [[Allah Map]]
+TextButton_80.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_80.TextSize = 16.0
+TextButton_80.TextScaled = true
+TextButton_80.TextWrapped = true
+TextButton_80.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_80.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_80_corner = Instance.new('UICorner')
+TextButton_80_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_80_corner.Parent = TextButton_80
+local TextButton_80_stroke = Instance.new('UIStroke')
+TextButton_80_stroke.Thickness = 3
+TextButton_80_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_80_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_80_stroke.Parent = TextButton_80
+TextButton_80.Parent = coffemap_1
+
+local TextButton_81 = Instance.new('TextButton')
+TextButton_81.Name = 'TextButton'
+TextButton_81.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_81.Position = UDim2.new(0.0000, 0, 0.5405, 0)
+TextButton_81.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_81.BackgroundTransparency = 0.00
+TextButton_81.Visible = true
+TextButton_81.Font = Enum.Font.SourceSansSemibold
+TextButton_81.Text = [[coffe map]]
+TextButton_81.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_81.TextSize = 16.0
+TextButton_81.TextScaled = true
+TextButton_81.TextWrapped = true
+TextButton_81.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_81.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_81_corner = Instance.new('UICorner')
+TextButton_81_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_81_corner.Parent = TextButton_81
+local TextButton_81_stroke = Instance.new('UIStroke')
+TextButton_81_stroke.Thickness = 3
+TextButton_81_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_81_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_81_stroke.Parent = TextButton_81
+TextButton_81.Parent = coffemap_1
+
+local TextButton_82 = Instance.new('TextButton')
+TextButton_82.Name = 'TextButton'
+TextButton_82.Size = UDim2.new(0.1000, 100, 0.0200, 10)
+TextButton_82.Position = UDim2.new(0.1600, 0, 0.5405, 0)
+TextButton_82.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_82.BackgroundTransparency = 0.00
+TextButton_82.Visible = true
+TextButton_82.Font = Enum.Font.SourceSansSemibold
+TextButton_82.Text = [[serverside ONTOP]]
+TextButton_82.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_82.TextSize = 16.0
+TextButton_82.TextScaled = true
+TextButton_82.TextWrapped = true
+TextButton_82.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_82.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_82_corner = Instance.new('UICorner')
+TextButton_82_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_82_corner.Parent = TextButton_82
+local TextButton_82_stroke = Instance.new('UIStroke')
+TextButton_82_stroke.Thickness = 3
+TextButton_82_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_82_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_82_stroke.Parent = TextButton_82
+TextButton_82.Parent = coffemap_1
+
+local TextButton_83 = Instance.new('TextButton')
+TextButton_83.Name = 'TextButton'
+TextButton_83.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_83.Position = UDim2.new(0.4800, 0, 0.5405, 0)
+TextButton_83.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_83.BackgroundTransparency = 0.00
+TextButton_83.Visible = true
+TextButton_83.Font = Enum.Font.SourceSansSemibold
+TextButton_83.Text = [[sheldonGuiV3]]
+TextButton_83.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_83.TextSize = 16.0
+TextButton_83.TextScaled = true
+TextButton_83.TextWrapped = true
+TextButton_83.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_83.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_83_corner = Instance.new('UICorner')
+TextButton_83_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_83_corner.Parent = TextButton_83
+local TextButton_83_stroke = Instance.new('UIStroke')
+TextButton_83_stroke.Thickness = 3
+TextButton_83_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_83_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_83_stroke.Parent = TextButton_83
+TextButton_83.Parent = coffemap_1
+
+local TextButton_84 = Instance.new('TextButton')
+TextButton_84.Name = 'TextButton'
+TextButton_84.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_84.Position = UDim2.new(0.6400, 0, 0.5405, 0)
+TextButton_84.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_84.BackgroundTransparency = 0.00
+TextButton_84.Visible = true
+TextButton_84.Font = Enum.Font.SourceSansSemibold
+TextButton_84.Text = [[SCARY JS]]
+TextButton_84.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_84.TextSize = 16.0
+TextButton_84.TextScaled = true
+TextButton_84.TextWrapped = true
+TextButton_84.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_84.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_84_corner = Instance.new('UICorner')
+TextButton_84_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_84_corner.Parent = TextButton_84
+local TextButton_84_stroke = Instance.new('UIStroke')
+TextButton_84_stroke.Thickness = 3
+TextButton_84_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_84_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_84_stroke.Parent = TextButton_84
+TextButton_84.Parent = coffemap_1
+
+local TextButton_85 = Instance.new('TextButton')
+TextButton_85.Name = 'TextButton'
+TextButton_85.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_85.Position = UDim2.new(0.8000, 0, 0.5405, 0)
+TextButton_85.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_85.BackgroundTransparency = 0.00
+TextButton_85.Visible = true
+TextButton_85.Font = Enum.Font.SourceSansSemibold
+TextButton_85.Text = [[Chara]]
+TextButton_85.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_85.TextSize = 16.0
+TextButton_85.TextScaled = true
+TextButton_85.TextWrapped = true
+TextButton_85.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_85.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_85_corner = Instance.new('UICorner')
+TextButton_85_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_85_corner.Parent = TextButton_85
+local TextButton_85_stroke = Instance.new('UIStroke')
+TextButton_85_stroke.Thickness = 3
+TextButton_85_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_85_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_85_stroke.Parent = TextButton_85
+TextButton_85.Parent = coffemap_1
+
+local TextButton_86 = Instance.new('TextButton')
+TextButton_86.Name = 'TextButton'
+TextButton_86.Size = UDim2.new(0.1000, 444, 0.0200, 10)
+TextButton_86.Position = UDim2.new(0.0000, 0, 0.5964, 0)
+TextButton_86.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_86.BackgroundTransparency = 0.00
+TextButton_86.Visible = true
+TextButton_86.Font = Enum.Font.SourceSansSemibold
+TextButton_86.Text = [[private gui by J0x V5.6]]
+TextButton_86.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_86.TextSize = 16.0
+TextButton_86.TextScaled = true
+TextButton_86.TextWrapped = true
+TextButton_86.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_86.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_86_corner = Instance.new('UICorner')
+TextButton_86_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_86_corner.Parent = TextButton_86
+local TextButton_86_stroke = Instance.new('UIStroke')
+TextButton_86_stroke.Thickness = 3
+TextButton_86_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_86_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_86_stroke.Parent = TextButton_86
+TextButton_86.Parent = coffemap_1
+
+local TextButton_87 = Instance.new('TextButton')
+TextButton_87.Name = 'TextButton'
+TextButton_87.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_87.Position = UDim2.new(0.8000, 0, 0.6523, 0)
+TextButton_87.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_87.BackgroundTransparency = 0.00
+TextButton_87.Visible = true
+TextButton_87.Font = Enum.Font.SourceSansSemibold
+TextButton_87.Text = [[TUBERS93JUMP]]
+TextButton_87.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_87.TextSize = 16.0
+TextButton_87.TextScaled = true
+TextButton_87.TextWrapped = true
+TextButton_87.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_87.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_87_corner = Instance.new('UICorner')
+TextButton_87_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_87_corner.Parent = TextButton_87
+local TextButton_87_stroke = Instance.new('UIStroke')
+TextButton_87_stroke.Thickness = 3
+TextButton_87_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_87_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_87_stroke.Parent = TextButton_87
+TextButton_87.Parent = coffemap_1
+
+local TextButton_88 = Instance.new('TextButton')
+TextButton_88.Name = 'TextButton'
+TextButton_88.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_88.Position = UDim2.new(0.8000, 0, 0.7082, 0)
+TextButton_88.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_88.BackgroundTransparency = 0.00
+TextButton_88.Visible = true
+TextButton_88.Font = Enum.Font.SourceSansSemibold
+TextButton_88.Text = [[toad]]
+TextButton_88.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_88.TextSize = 16.0
+TextButton_88.TextScaled = true
+TextButton_88.TextWrapped = true
+TextButton_88.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_88.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_88_corner = Instance.new('UICorner')
+TextButton_88_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_88_corner.Parent = TextButton_88
+local TextButton_88_stroke = Instance.new('UIStroke')
+TextButton_88_stroke.Thickness = 3
+TextButton_88_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_88_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_88_stroke.Parent = TextButton_88
+TextButton_88.Parent = coffemap_1
+
+local TextButton_89 = Instance.new('TextButton')
+TextButton_89.Name = 'TextButton'
+TextButton_89.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_89.Position = UDim2.new(0.8000, 0, 0.8200, 0)
+TextButton_89.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_89.BackgroundTransparency = 0.00
+TextButton_89.Visible = true
+TextButton_89.Font = Enum.Font.SourceSansSemibold
+TextButton_89.Text = [[luigi exe]]
+TextButton_89.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_89.TextSize = 16.0
+TextButton_89.TextScaled = true
+TextButton_89.TextWrapped = true
+TextButton_89.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_89.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_89_corner = Instance.new('UICorner')
+TextButton_89_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_89_corner.Parent = TextButton_89
+local TextButton_89_stroke = Instance.new('UIStroke')
+TextButton_89_stroke.Thickness = 3
+TextButton_89_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_89_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_89_stroke.Parent = TextButton_89
+TextButton_89.Parent = coffemap_1
+
+local TextButton_90 = Instance.new('TextButton')
+TextButton_90.Name = 'TextButton'
+TextButton_90.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_90.Position = UDim2.new(0.8000, 0, 0.7641, 0)
+TextButton_90.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_90.BackgroundTransparency = 0.00
+TextButton_90.Visible = true
+TextButton_90.Font = Enum.Font.SourceSansSemibold
+TextButton_90.Text = [[mlg]]
+TextButton_90.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_90.TextSize = 16.0
+TextButton_90.TextScaled = true
+TextButton_90.TextWrapped = true
+TextButton_90.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_90.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_90_corner = Instance.new('UICorner')
+TextButton_90_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_90_corner.Parent = TextButton_90
+local TextButton_90_stroke = Instance.new('UIStroke')
+TextButton_90_stroke.Thickness = 3
+TextButton_90_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_90_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_90_stroke.Parent = TextButton_90
+TextButton_90.Parent = coffemap_1
+
+local TextButton_91 = Instance.new('TextButton')
+TextButton_91.Name = 'TextButton'
+TextButton_91.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_91.Position = UDim2.new(0.8000, 0, 0.8759, 0)
+TextButton_91.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_91.BackgroundTransparency = 0.00
+TextButton_91.Visible = true
+TextButton_91.Font = Enum.Font.SourceSansSemibold
+TextButton_91.Text = [[virus 2]]
+TextButton_91.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_91.TextSize = 16.0
+TextButton_91.TextScaled = true
+TextButton_91.TextWrapped = true
+TextButton_91.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_91.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_91_corner = Instance.new('UICorner')
+TextButton_91_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_91_corner.Parent = TextButton_91
+local TextButton_91_stroke = Instance.new('UIStroke')
+TextButton_91_stroke.Thickness = 3
+TextButton_91_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_91_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_91_stroke.Parent = TextButton_91
+TextButton_91.Parent = coffemap_1
+
+local TextButton_92 = Instance.new('TextButton')
+TextButton_92.Name = 'TextButton'
+TextButton_92.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_92.Position = UDim2.new(0.8000, 0, 0.9318, 0)
+TextButton_92.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_92.BackgroundTransparency = 0.00
+TextButton_92.Visible = true
+TextButton_92.Font = Enum.Font.SourceSansSemibold
+TextButton_92.Text = [[dominant exe]]
+TextButton_92.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_92.TextSize = 16.0
+TextButton_92.TextScaled = true
+TextButton_92.TextWrapped = true
+TextButton_92.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_92.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_92_corner = Instance.new('UICorner')
+TextButton_92_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_92_corner.Parent = TextButton_92
+local TextButton_92_stroke = Instance.new('UIStroke')
+TextButton_92_stroke.Thickness = 3
+TextButton_92_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_92_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_92_stroke.Parent = TextButton_92
+TextButton_92.Parent = coffemap_1
+
+local TextButton_93 = Instance.new('TextButton')
+TextButton_93.Name = 'TextButton'
+TextButton_93.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_93.Position = UDim2.new(0.6400, 0, 0.9318, 0)
+TextButton_93.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_93.BackgroundTransparency = 0.00
+TextButton_93.Visible = true
+TextButton_93.Font = Enum.Font.SourceSansSemibold
+TextButton_93.Text = [[Fake Ip]]
+TextButton_93.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_93.TextSize = 16.0
+TextButton_93.TextScaled = true
+TextButton_93.TextWrapped = true
+TextButton_93.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_93.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_93_corner = Instance.new('UICorner')
+TextButton_93_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_93_corner.Parent = TextButton_93
+local TextButton_93_stroke = Instance.new('UIStroke')
+TextButton_93_stroke.Thickness = 3
+TextButton_93_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_93_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_93_stroke.Parent = TextButton_93
+TextButton_93.Parent = coffemap_1
+
+local TextButton_94 = Instance.new('TextButton')
+TextButton_94.Name = 'TextButton'
+TextButton_94.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_94.Position = UDim2.new(0.6400, 0, 0.8759, 0)
+TextButton_94.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_94.BackgroundTransparency = 0.00
+TextButton_94.Visible = true
+TextButton_94.Font = Enum.Font.SourceSansSemibold
+TextButton_94.Text = [[virus]]
+TextButton_94.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_94.TextSize = 16.0
+TextButton_94.TextScaled = true
+TextButton_94.TextWrapped = true
+TextButton_94.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_94.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_94_corner = Instance.new('UICorner')
+TextButton_94_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_94_corner.Parent = TextButton_94
+local TextButton_94_stroke = Instance.new('UIStroke')
+TextButton_94_stroke.Thickness = 3
+TextButton_94_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_94_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_94_stroke.Parent = TextButton_94
+TextButton_94.Parent = coffemap_1
+
+local TextButton_95 = Instance.new('TextButton')
+TextButton_95.Name = 'TextButton'
+TextButton_95.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_95.Position = UDim2.new(0.6400, 0, 0.8200, 0)
+TextButton_95.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_95.BackgroundTransparency = 0.00
+TextButton_95.Visible = true
+TextButton_95.Font = Enum.Font.SourceSansSemibold
+TextButton_95.Text = [[SSP]]
+TextButton_95.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_95.TextSize = 16.0
+TextButton_95.TextScaled = true
+TextButton_95.TextWrapped = true
+TextButton_95.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_95.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_95_corner = Instance.new('UICorner')
+TextButton_95_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_95_corner.Parent = TextButton_95
+local TextButton_95_stroke = Instance.new('UIStroke')
+TextButton_95_stroke.Thickness = 3
+TextButton_95_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_95_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_95_stroke.Parent = TextButton_95
+TextButton_95.Parent = coffemap_1
+
+local TextButton_96 = Instance.new('TextButton')
+TextButton_96.Name = 'TextButton'
+TextButton_96.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_96.Position = UDim2.new(0.6400, 0, 0.7641, 0)
+TextButton_96.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_96.BackgroundTransparency = 0.00
+TextButton_96.Visible = true
+TextButton_96.Font = Enum.Font.SourceSansSemibold
+TextButton_96.Text = [[]]
+TextButton_96.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_96.TextSize = 16.0
+TextButton_96.TextScaled = true
+TextButton_96.TextWrapped = true
+TextButton_96.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_96.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_96_corner = Instance.new('UICorner')
+TextButton_96_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_96_corner.Parent = TextButton_96
+local TextButton_96_stroke = Instance.new('UIStroke')
+TextButton_96_stroke.Thickness = 3
+TextButton_96_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_96_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_96_stroke.Parent = TextButton_96
+TextButton_96.Parent = coffemap_1
+
+local TextButton_97 = Instance.new('TextButton')
+TextButton_97.Name = 'TextButton'
+TextButton_97.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_97.Position = UDim2.new(0.6400, 0, 0.7082, 0)
+TextButton_97.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_97.BackgroundTransparency = 0.00
+TextButton_97.Visible = true
+TextButton_97.Font = Enum.Font.SourceSansSemibold
+TextButton_97.Text = [[TUB00Z GUI V3]]
+TextButton_97.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_97.TextSize = 16.0
+TextButton_97.TextScaled = true
+TextButton_97.TextWrapped = true
+TextButton_97.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_97.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_97_corner = Instance.new('UICorner')
+TextButton_97_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_97_corner.Parent = TextButton_97
+local TextButton_97_stroke = Instance.new('UIStroke')
+TextButton_97_stroke.Thickness = 3
+TextButton_97_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_97_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_97_stroke.Parent = TextButton_97
+TextButton_97.Parent = coffemap_1
+
+local TextButton_98 = Instance.new('TextButton')
+TextButton_98.Name = 'TextButton'
+TextButton_98.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_98.Position = UDim2.new(0.6400, 0, 0.6523, 0)
+TextButton_98.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_98.BackgroundTransparency = 0.00
+TextButton_98.Visible = true
+TextButton_98.Font = Enum.Font.SourceSansSemibold
+TextButton_98.Text = [[TubersGui v4]]
+TextButton_98.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_98.TextSize = 16.0
+TextButton_98.TextScaled = true
+TextButton_98.TextWrapped = true
+TextButton_98.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_98.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_98_corner = Instance.new('UICorner')
+TextButton_98_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_98_corner.Parent = TextButton_98
+local TextButton_98_stroke = Instance.new('UIStroke')
+TextButton_98_stroke.Thickness = 3
+TextButton_98_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_98_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_98_stroke.Parent = TextButton_98
+TextButton_98.Parent = coffemap_1
+
+local TextButton_99 = Instance.new('TextButton')
+TextButton_99.Name = 'TextButton'
+TextButton_99.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_99.Position = UDim2.new(0.4800, 0, 0.6523, 0)
+TextButton_99.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_99.BackgroundTransparency = 0.00
+TextButton_99.Visible = true
+TextButton_99.Font = Enum.Font.SourceSansSemibold
+TextButton_99.Text = [[Tubers93 gui]]
+TextButton_99.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_99.TextSize = 16.0
+TextButton_99.TextScaled = true
+TextButton_99.TextWrapped = true
+TextButton_99.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_99.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_99_corner = Instance.new('UICorner')
+TextButton_99_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_99_corner.Parent = TextButton_99
+local TextButton_99_stroke = Instance.new('UIStroke')
+TextButton_99_stroke.Thickness = 3
+TextButton_99_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_99_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_99_stroke.Parent = TextButton_99
+TextButton_99.Parent = coffemap_1
+
+local TextButton_100 = Instance.new('TextButton')
+TextButton_100.Name = 'TextButton'
+TextButton_100.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_100.Position = UDim2.new(0.3200, 0, 0.6523, 0)
+TextButton_100.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_100.BackgroundTransparency = 0.00
+TextButton_100.Visible = true
+TextButton_100.Font = Enum.Font.SourceSansSemibold
+TextButton_100.Text = [[Tp Tubers rip]]
+TextButton_100.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_100.TextSize = 16.0
+TextButton_100.TextScaled = true
+TextButton_100.TextWrapped = true
+TextButton_100.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_100.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_100_corner = Instance.new('UICorner')
+TextButton_100_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_100_corner.Parent = TextButton_100
+local TextButton_100_stroke = Instance.new('UIStroke')
+TextButton_100_stroke.Thickness = 3
+TextButton_100_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_100_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_100_stroke.Parent = TextButton_100
+TextButton_100.Parent = coffemap_1
+
+local TextButton_101 = Instance.new('TextButton')
+TextButton_101.Name = 'TextButton'
+TextButton_101.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_101.Position = UDim2.new(0.0200, 0, 0.6523, 0)
+TextButton_101.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_101.BackgroundTransparency = 0.00
+TextButton_101.Visible = true
+TextButton_101.Font = Enum.Font.SourceSansSemibold
+TextButton_101.Text = [[crepy skuad ss]]
+TextButton_101.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_101.TextSize = 16.0
+TextButton_101.TextScaled = true
+TextButton_101.TextWrapped = true
+TextButton_101.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_101.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_101_corner = Instance.new('UICorner')
+TextButton_101_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_101_corner.Parent = TextButton_101
+local TextButton_101_stroke = Instance.new('UIStroke')
+TextButton_101_stroke.Thickness = 3
+TextButton_101_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_101_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_101_stroke.Parent = TextButton_101
+TextButton_101.Parent = coffemap_1
+
+local TextButton_102 = Instance.new('TextButton')
+TextButton_102.Name = 'TextButton'
+TextButton_102.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_102.Position = UDim2.new(0.0200, 0, 0.7082, 0)
+TextButton_102.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_102.BackgroundTransparency = 0.00
+TextButton_102.Visible = true
+TextButton_102.Font = Enum.Font.SourceSansSemibold
+TextButton_102.Text = [[sky tubers]]
+TextButton_102.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_102.TextSize = 16.0
+TextButton_102.TextScaled = true
+TextButton_102.TextWrapped = true
+TextButton_102.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_102.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_102_corner = Instance.new('UICorner')
+TextButton_102_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_102_corner.Parent = TextButton_102
+local TextButton_102_stroke = Instance.new('UIStroke')
+TextButton_102_stroke.Thickness = 3
+TextButton_102_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_102_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_102_stroke.Parent = TextButton_102
+TextButton_102.Parent = coffemap_1
+
+local TextButton_103 = Instance.new('TextButton')
+TextButton_103.Name = 'TextButton'
+TextButton_103.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_103.Position = UDim2.new(0.0200, 0, 0.7641, 0)
+TextButton_103.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_103.BackgroundTransparency = 0.00
+TextButton_103.Visible = true
+TextButton_103.Font = Enum.Font.SourceSansSemibold
+TextButton_103.Text = [[skeleton SKY V2]]
+TextButton_103.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_103.TextSize = 16.0
+TextButton_103.TextScaled = true
+TextButton_103.TextWrapped = true
+TextButton_103.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_103.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_103_corner = Instance.new('UICorner')
+TextButton_103_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_103_corner.Parent = TextButton_103
+local TextButton_103_stroke = Instance.new('UIStroke')
+TextButton_103_stroke.Thickness = 3
+TextButton_103_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_103_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_103_stroke.Parent = TextButton_103
+TextButton_103.Parent = coffemap_1
+
+local TextButton_104 = Instance.new('TextButton')
+TextButton_104.Name = 'TextButton'
+TextButton_104.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_104.Position = UDim2.new(0.0200, 0, 0.8200, 0)
+TextButton_104.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_104.BackgroundTransparency = 0.00
+TextButton_104.Visible = true
+TextButton_104.Font = Enum.Font.SourceSansSemibold
+TextButton_104.Text = [[k00pz particle]]
+TextButton_104.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_104.TextSize = 16.0
+TextButton_104.TextScaled = true
+TextButton_104.TextWrapped = true
+TextButton_104.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_104.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_104_corner = Instance.new('UICorner')
+TextButton_104_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_104_corner.Parent = TextButton_104
+local TextButton_104_stroke = Instance.new('UIStroke')
+TextButton_104_stroke.Thickness = 3
+TextButton_104_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_104_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_104_stroke.Parent = TextButton_104
+TextButton_104.Parent = coffemap_1
+
+local TextButton_105 = Instance.new('TextButton')
+TextButton_105.Name = 'TextButton'
+TextButton_105.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_105.Position = UDim2.new(0.0200, 0, 0.8759, 0)
+TextButton_105.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_105.BackgroundTransparency = 0.00
+TextButton_105.Visible = true
+TextButton_105.Font = Enum.Font.SourceSansSemibold
+TextButton_105.Text = [[k00pz decal]]
+TextButton_105.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_105.TextSize = 16.0
+TextButton_105.TextScaled = true
+TextButton_105.TextWrapped = true
+TextButton_105.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_105.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_105_corner = Instance.new('UICorner')
+TextButton_105_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_105_corner.Parent = TextButton_105
+local TextButton_105_stroke = Instance.new('UIStroke')
+TextButton_105_stroke.Thickness = 3
+TextButton_105_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_105_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_105_stroke.Parent = TextButton_105
+TextButton_105.Parent = coffemap_1
+
+local TextButton_106 = Instance.new('TextButton')
+TextButton_106.Name = 'TextButton'
+TextButton_106.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_106.Position = UDim2.new(0.0200, 0, 0.9318, 0)
+TextButton_106.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_106.BackgroundTransparency = 0.00
+TextButton_106.Visible = true
+TextButton_106.Font = Enum.Font.SourceSansSemibold
+TextButton_106.Text = [[k00pz skybox]]
+TextButton_106.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_106.TextSize = 16.0
+TextButton_106.TextScaled = true
+TextButton_106.TextWrapped = true
+TextButton_106.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_106.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_106_corner = Instance.new('UICorner')
+TextButton_106_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_106_corner.Parent = TextButton_106
+local TextButton_106_stroke = Instance.new('UIStroke')
+TextButton_106_stroke.Thickness = 3
+TextButton_106_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_106_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_106_stroke.Parent = TextButton_106
+TextButton_106.Parent = coffemap_1
+
+local TextButton_107 = Instance.new('TextButton')
+TextButton_107.Name = 'TextButton'
+TextButton_107.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_107.Position = UDim2.new(0.1800, 0, 0.9318, 0)
+TextButton_107.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_107.BackgroundTransparency = 0.00
+TextButton_107.Visible = true
+TextButton_107.Font = Enum.Font.SourceSansSemibold
+TextButton_107.Text = [[k00pz hint]]
+TextButton_107.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_107.TextSize = 16.0
+TextButton_107.TextScaled = true
+TextButton_107.TextWrapped = true
+TextButton_107.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_107.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_107_corner = Instance.new('UICorner')
+TextButton_107_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_107_corner.Parent = TextButton_107
+local TextButton_107_stroke = Instance.new('UIStroke')
+TextButton_107_stroke.Thickness = 3
+TextButton_107_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_107_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_107_stroke.Parent = TextButton_107
+TextButton_107.Parent = coffemap_1
+
+local TextButton_108 = Instance.new('TextButton')
+TextButton_108.Name = 'TextButton'
+TextButton_108.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_108.Position = UDim2.new(0.3400, 0, 0.9318, 0)
+TextButton_108.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_108.BackgroundTransparency = 0.00
+TextButton_108.Visible = true
+TextButton_108.Font = Enum.Font.SourceSansSemibold
+TextButton_108.Text = [[k00pz message]]
+TextButton_108.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_108.TextSize = 16.0
+TextButton_108.TextScaled = true
+TextButton_108.TextWrapped = true
+TextButton_108.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_108.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_108_corner = Instance.new('UICorner')
+TextButton_108_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_108_corner.Parent = TextButton_108
+local TextButton_108_stroke = Instance.new('UIStroke')
+TextButton_108_stroke.Thickness = 3
+TextButton_108_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_108_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_108_stroke.Parent = TextButton_108
+TextButton_108.Parent = coffemap_1
+
+local TextButton_109 = Instance.new('TextButton')
+TextButton_109.Name = 'TextButton'
+TextButton_109.Size = UDim2.new(0.1000, 20, 0.0200, 10)
+TextButton_109.Position = UDim2.new(0.5000, 0, 0.9318, 0)
+TextButton_109.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_109.BackgroundTransparency = 0.00
+TextButton_109.Visible = true
+TextButton_109.Font = Enum.Font.SourceSansSemibold
+TextButton_109.Text = [[k00pz jump]]
+TextButton_109.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_109.TextSize = 16.0
+TextButton_109.TextScaled = true
+TextButton_109.TextWrapped = true
+TextButton_109.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_109.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_109_corner = Instance.new('UICorner')
+TextButton_109_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_109_corner.Parent = TextButton_109
+local TextButton_109_stroke = Instance.new('UIStroke')
+TextButton_109_stroke.Thickness = 3
+TextButton_109_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_109_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_109_stroke.Parent = TextButton_109
+TextButton_109.Parent = coffemap_1
+
+local TextButton_110 = Instance.new('TextButton')
+TextButton_110.Name = 'TextButton'
+TextButton_110.Size = UDim2.new(0.1000, 170, 0.0200, 90)
+TextButton_110.Position = UDim2.new(0.1800, 0, 0.7082, 0)
+TextButton_110.BackgroundColor3 = Color3.fromRGB(1, 100, 1)
+TextButton_110.BackgroundTransparency = 0.00
+TextButton_110.Visible = true
+TextButton_110.Font = Enum.Font.SourceSansSemibold
+TextButton_110.Text = [[New project Ligma V2 cool]]
+TextButton_110.TextColor3 = Color3.fromRGB(1, 255, 1)
+TextButton_110.TextSize = 16.0
+TextButton_110.TextScaled = true
+TextButton_110.TextWrapped = true
+TextButton_110.TextXAlignment = Enum.TextXAlignment.Center
+TextButton_110.TextYAlignment = Enum.TextYAlignment.Center
+local TextButton_110_corner = Instance.new('UICorner')
+TextButton_110_corner.CornerRadius = UDim.new(0.0300, 0)
+TextButton_110_corner.Parent = TextButton_110
+local TextButton_110_stroke = Instance.new('UIStroke')
+TextButton_110_stroke.Thickness = 3
+TextButton_110_stroke.Color = Color3.fromRGB(1, 255, 1)
+TextButton_110_stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+TextButton_110_stroke.Parent = TextButton_110
+TextButton_110.Parent = coffemap_1
+
+
+-- ====== INTERACTIVITY ======
+
+-- Connect Button Actions
+TextButton_90.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mlg-particles-39717"))()
+    end)
+end)
+
+TextButton_67.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LuasLegacyScripts/refs/heads/main/%5BRecharacter%5D%20Big%20Smoke"))()
+    end)
+end)
+
+TextButton_80.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/NNp1NJKT"))()
+    end)
+end)
+
+TextButton_68.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/Pee/refs/heads/main/PeeScript.lua"))()
+    end)
+end)
+
+TextButton_41.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-China-40640"))()
+    end)
+end)
+
+TextButton_57.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/6hAJ2MMG/raw"))()
+    end)
+end)
+
+TextButton_10.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-phonk-songs-5448"))()
+    end)
+end)
+
+TextButton_35.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dog-script-32104"))()
+    end)
+end)
+
+TextButton_104.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-k00pkidd-particle-43507"))()
+    end)
+end)
+
+TextButton_18.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fYQCCQ3v"))()
+    end)
+end)
+
+TextButton_63.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/6zDKS2TV"))()
+    end)
+end)
+
+TextButton_75.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://fromhatai.neocities.org/Private/Rc7.lua"))()
+    end)
+end)
+
+TextButton_11.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-skeleton-sky-10383"))()
+    end)
+end)
+
+TextButton_76.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-HD-Admin-Panel-34209"))()
+    end)
+end)
+
+TextButton_65.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/5saVhNKb"))()
+    end)
+end)
+
+TextButton_89.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Luigi-exe-9430"))()
+    end)
+end)
+
+TextButton_74.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBypasserHax1/Idkkk/refs/heads/main/dominatnee.txt"))()
+    end)
+end)
+
+TextButton_12.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-RICK-ROLL-SCRIPT-OP-18925"))()
+    end)
+end)
+
+TextButton_87.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Tubers93-jumpscare-31279"))()
+    end)
+end)
+
+TextButton_4.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Remove-All-GUIs-19469"))()
+    end)
+end)
+
+TextButton_6.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/AHm225EV/raw"))()
+    end)
+end)
+
+TextButton_58.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBypasserHax1/Idkkk/refs/heads/main/projetduck.lua"))()
+    end)
+end)
+
+TextButton_71.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GqfUpdX6"))();
+    end)
+end)
+
+TextButton_44.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-BLUE2SPOOKY-V1-GUI-44093"))()
+    end)
+end)
+
+TextButton_43.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K00pgui-delta-remake-10921"))()
+    end)
+end)
+
+TextButton_48.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/rare-scripts/refs/heads/main/Cannoneer%20Noob.txt"))()
+    end)
+end)
+
+TextButton_98.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-tubers93-team-v4-31357"))()
+    end)
+end)
+
+TextButton_33.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-TXT-saitama-43285"))()
+    end)
+end)
+
+TextButton_82.MouseButton1Click:Connect(function()
+    pcall(function()
+    local player = game.Players.LocalPlayer
+    local playerGui = player:WaitForChild("PlayerGui")
+    
+    -- Main GUI
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "ExecutorGUI"
+    gui.ResetOnSpawn = false
+    gui.Parent = playerGui
+    
+    -- Toggle Button
+    local toggleButton = Instance.new("TextButton")
+    toggleButton.Size = UDim2.new(0, 100, 0, 30)
+    toggleButton.Position = UDim2.new(0, 10, 0, 10)
+    toggleButton.Text = "TOGGLE"
+    toggleButton.Font = Enum.Font.LuckiestGuy
+    toggleButton.TextSize = 14
+    toggleButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+    toggleButton.TextColor3 = Color3.new(1, 1, 1)
+    toggleButton.Parent = gui
+    
+    -- Main Frame
+    local frame = Instance.new("Frame")
+    frame.Size = UDim2.new(0, 350, 0, 200)
+    frame.Position = UDim2.new(0.5, -175, 0.5, -100)
+    frame.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+    frame.BorderSizePixel = 0
+    frame.Active = true
+    frame.Draggable = true
+    frame.Visible = true
+    frame.Parent = gui
+    
+    -- Toggle Function
+    toggleButton.MouseButton1Click:Connect(function()
+    	frame.Visible = not frame.Visible
+    end)
+    
+    -- Title Label
+    local title = Instance.new("TextLabel")
+    title.Size = UDim2.new(1, 0, 0, 30)
+    title.BackgroundTransparency = 1
+    title.Text = "SERVERSIDE OR FE BYPASS EXECUTOR"
+    title.Font = Enum.Font.LuckiestGuy
+    title.TextSize = 18
+    title.TextColor3 = Color3.new(1, 1, 1)
+    title.Parent = frame
+    
+    -- Input Box
+    local inputBox = Instance.new("TextBox")
+    inputBox.Size = UDim2.new(1, -20, 0, 40)
+    inputBox.Position = UDim2.new(0, 10, 0, 40)
+    inputBox.PlaceholderText = "ENTER REQUIRE"
+    inputBox.Text = ""
+    inputBox.ClearTextOnFocus = false
+    inputBox.TextColor3 = Color3.new(0, 0, 0)
+    inputBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    inputBox.TextWrapped = true
+    inputBox.Font = Enum.Font.LuckiestGuy
+    inputBox.TextSize = 14
+    inputBox.TextXAlignment = Enum.TextXAlignment.Center
+    inputBox.TextYAlignment = Enum.TextYAlignment.Center
+    inputBox.Parent = frame
+    
+    -- Clear Button
+    local clearButton = Instance.new("TextButton")
+    clearButton.Size = UDim2.new(1, -20, 0, 35)
+    clearButton.Position = UDim2.new(0, 10, 0, 90)
+    clearButton.Text = "CLEAR"
+    clearButton.Font = Enum.Font.LuckiestGuy
+    clearButton.TextSize = 18
+    clearButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+    clearButton.TextColor3 = Color3.new(1, 1, 1)
+    clearButton.Parent = frame
+    
+    -- Execute Button
+    local executeButton = Instance.new("TextButton")
+    executeButton.Size = UDim2.new(1, -20, 0, 35)
+    executeButton.Position = UDim2.new(0, 10, 0, 135)
+    executeButton.Text = "EXECUTE REQUIRE"
+    executeButton.Font = Enum.Font.LuckiestGuy
+    executeButton.TextSize = 18
+    executeButton.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+    executeButton.TextColor3 = Color3.new(1, 1, 1)
+    executeButton.Parent = frame
+    
+    -- Clear Function
+    clearButton.MouseButton1Click:Connect(function()
+    	inputBox.Text = ""
+    end)
+    
+    -- Execute Function
+    executeButton.MouseButton1Click:Connect(function()
+    	local scriptText = inputBox.Text
+    	local assetId = scriptText:match("require%s*%(?%s*(%d+)%s*%)?")
+    
+    	if assetId then
+    		local success, result = pcall(function()
+    			local objects = game:GetObjects("rbxassetid://" .. assetId)
+    			local obj = objects[1]
+    			if obj then
+    				obj.Parent = playerGui
+    				if obj:IsA("ModuleScript") then
+    					local modSuccess, modResult = pcall(function()
+    						return require(obj)
+    					end)
+    					if not modSuccess then
+    						warn("Error requiring module:", modResult)
+    					end
+    				end
+    			end
+    		end)
+    		if not success then
+    			warn("Error loading asset:", result)
+    		end
+    	else
+    		warn("Invalid require() syntax.")
+    	end
+    end)
+    local StigmanFroud = Instance.new("ScreenGui")
+    local trajectory = Instance.new("ImageLabel")
+    local R = Instance.new("ImageLabel")
+    local Earth = Instance.new("ImageLabel")
+    local Green = Instance.new("ImageLabel")
+    
+    StigmanFroud.Name = "Stigman Froud"
+    StigmanFroud.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    StigmanFroud.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    StigmanFroud.DisplayOrder = 999
+    StigmanFroud.ResetOnSpawn = false
+    
+    trajectory.Name = "trajectory"
+    trajectory.Parent = StigmanFroud
+    trajectory.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    trajectory.BackgroundTransparency = 1.000
+    trajectory.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
+    trajectory.Size = UDim2.new(0, 110, 0, 110)
+    trajectory.Image = "http://www.roblox.com/asset/?id=7102118272"
+    trajectory.SliceScale = 3.000
+    
+    R.Name = "R"
+    R.Parent = StigmanFroud
+    R.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    R.BackgroundTransparency = 1.000
+    R.Position = UDim2.new(0.45430705, 0, 0.430432826, 0)
+    R.Size = UDim2.new(0, 110, 0, 110)
+    R.ZIndex = 3
+    R.Image = "http://www.roblox.com/asset/?id=7102117818"
+    R.SliceScale = 3.000
+    
+    Earth.Name = "Earth"
+    Earth.Parent = R
+    Earth.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Earth.BackgroundTransparency = 1.000
+    Earth.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    Earth.BorderSizePixel = 0
+    Earth.Position = UDim2.new(0.404999346, 0, 0.406818181, 0)
+    Earth.Size = UDim2.new(0, 20, 0, 20)
+    Earth.ZIndex = 4
+    Earth.Image = "rbxassetid://78137783929126"
+    
+    Green.Name = "Green"
+    Green.Parent = StigmanFroud
+    Green.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Green.BackgroundTransparency = 1.000
+    Green.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    Green.BorderSizePixel = 0
+    Green.Position = UDim2.new(0.00499999989, 0, 0.824999988, 0)
+    Green.Size = UDim2.new(0, 110, 0, 110)
+    Green.ZIndex = 6
+    Green.Image = "rbxassetid://75554667916597"
+    Green.ImageTransparency = 1.000
+    
+    -- Animation for trajectory (rotating)
+    local function AARC_fake_script()
+    	local script = Instance.new('LocalScript', trajectory)
+    	local img = script.Parent
+    	local sonic = script.Parent
+    	
+    	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.4, false)
+    	wait(3)
+    	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
+    	
+    	while true do
+    		wait(0.01)
+    		sonic.Rotation = sonic.Rotation + 0.3
+    	end
+    end
+    coroutine.wrap(AARC_fake_script)()
+    
+    -- Animation for Earth (orbiting)
+    local function LQERQ_fake_script()
+    	local script = Instance.new('LocalScript', Earth)
+    	local Angle = 0
+    	local AngleIncrement = 0.02
+    	local OriginPos = script.Parent.Position
+    	local Distance = 55
+    	
+    	while wait() do
+    		Angle = Angle + AngleIncrement
+    		local dirX = math.cos(Angle)
+    		local dirY = math.sin(Angle)
+    		script.Parent.Position = OriginPos + UDim2.new(0, dirX * Distance, 0, dirY * Distance)
+    	end
+    end
+    coroutine.wrap(LQERQ_fake_script)()
+    
+    -- Animation for R (tween in and down)
+    local function XBQODE_fake_script()
+    	local script = Instance.new('LocalScript', R)
+    	local img = script.Parent
+    	
+    	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.4, false)
+    	wait(3)
+    	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
+    end
+    coroutine.wrap(XBQODE_fake_script)()
+    
+    -- Blinking Green effect
+    local function NSHDR_fake_script()
+    	local script = Instance.new('LocalScript', Green)
+    	local Tween = game:GetService("TweenService")
+    	local Greenfn = script.Parent
+    	wait(2)
+    	while true do
+    		local TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 0})
+    		TranspncyTween:Play()
+    		wait(0.3)
+    		TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 1})
+    		TranspncyTween:Play()
+    		wait(0.3)
+    		TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 0})
+    		TranspncyTween:Play()
+    		wait(0.3)
+    		TranspncyTween = Tween:Create(Greenfn, TweenInfo.new(0.5), {ImageTransparency = 1})
+    		TranspncyTween:Play()
+    		wait(4)
+    	end
+    end
+    coroutine.wrap(NSHDR_fake_script)()
+    
+    -- Tweening animation for Green (initial move)
+    local function UDIRPT_fake_script()
+    	local script = Instance.new('LocalScript', Green)
+    	local img = script.Parent
+    	
+    	img:TweenPosition(UDim2.new(0.451, 0, 0.395, 0), "Out", "Linear", 0.4, false)
+    	wait(3)
+    	img:TweenPosition(UDim2.new(0.005, 0, 0.619, 0), "Out", "Sine", 0.7, false)
+    end
+    coroutine.wrap(UDIRPT_fake_script)()
+    
+    -- Output welcome and game name
+    local function WGFAMY_fake_script()
+    	local script = Instance.new('LocalScript', StigmanFroud)
+    	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
+    	
+    	print("Loaded At", GetName.Name)
+    	wait(0.1)
+    	print("Welcome,", game.Players.LocalPlayer.Name)
+    end
+    coroutine.wrap(WGFAMY_fake_script)()
+    end)
+end)
+
+TextButton_53.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/debugnation/main/decompilers%20and%20debugging/Debuggers.txt"))()
+    end)
+end)
+
+TextButton_24.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Test4267/mrbean/refs/heads/main/hh"))()
+    end)
+end)
+
+TextButton_77.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/3XPaYv08"))()
+    end)
+end)
+
+TextButton_25.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/LuasLegacyScripts/main/%5BGUI%5D%20T0PK3K%200.8", true))()
+    end)
+end)
+
+TextButton_40.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-kaax-gui-41450"))()
+    end)
+end)
+
+TextButton_49.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/vIeHZgSK/raw"))()
+    end)
+end)
+
+TextButton_81.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://web.archive.org/web/20230331215846/https://pastebin.com/raw/HtUABLMJ"))()
+    end)
+end)
+
+TextButton_28.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/g00byd0lanxdd/RC7-REMAKE-6664/refs/heads/main/RC7%20REMAKE%206664"))()
+    end)
+end)
+
+TextButton_102.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Skybox-tubers93-25207"))()
+    end)
+end)
+
+TextButton_23.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3xen0kidd/ProjextLigma/refs/heads/main/obfuscated_script-1748044783577.lua.txt"))()
+    end)
+end)
+
+TextButton_107.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K00pkidd-hint-43505"))()
+    end)
+end)
+
+TextButton_39.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-K00pgui-v3-10493"))()
+    end)
+end)
+
+TextButton_3.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MJhyLPu9"))()
+    end)
+end)
+
+TextButton_37.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-anonymous-f3x-gui-44688"))()
+    end)
+end)
+
+TextButton_36.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-anonymous-particles-43458"))()
+    end)
+end)
+
+TextButton_60.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/rMyVKrO6/raw"))()
+    end)
+end)
+
+TextButton_54.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/4GLMKcft/raw"))()
+    end)
+end)
+
+TextButton_30.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-901617-Realm-k00pgui-v9-21788"))()
+    end)
+end)
+
+TextButton_47.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/nctA0Qqk/raw"))()
+    end)
+end)
+
+TextButton_42.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-C00lgui-Really-Long-44958"))()
+    end)
+end)
+
+TextButton_32.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/nLJkW0s1')))()
+    end)
+end)
+
+TextButton_94.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-The-virus-script-31230"))()
+    end)
+end)
+
+TextButton_91.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-KillerFE-28245"))()
+    end)
+end)
+
+TextButton_88.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/TOAD-roast-Script-21462"))()
+    end)
+end)
+
+TextButton_21.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ZaGXVyhj"))()
+    end)
+end)
+
+TextButton_29.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K00pgui-v10-put-in-robloc-studio-to-work-15561"))()
+    end)
+end)
+
+TextButton_55.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/20HPSyXp"))()
+    end)
+end)
+
+TextButton_70.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/Rumvf4tQ/raw"))()
+    end)
+end)
+
+TextButton_93.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fake-IP-Grabber-script-45076"))()
+    end)
+end)
+
+TextButton_27.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
+    end)
+end)
+
+TextButton_106.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-k00pkidd-skybox-43507"))()
+    end)
+end)
+
+TextButton_51.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://fromhatai.neocities.org/Private/NexusX.lua"))()
+    end)
+end)
+
+TextButton_9.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Elysian-Remake-working-23622"))()
+    end)
+end)
+
+TextButton_79.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/R8bdDRSb"))()
+    end)
+end)
+
+TextButton_26.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/g00byd0lanxdd/SF-1.5-MOBILE/refs/heads/main/SF%201.5%20MOBILE"))()
+    end)
+end)
+
+TextButton_86.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/3ZSMrM2X/raw"))()
+    end)
+end)
+
+TextButton_20.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/CsFAQyXr'))()
+    end)
+end)
+
+TextButton_101.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Creepy-Squad-ss-44940"))()
+    end)
+end)
+
+TextButton_19.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/iF7TCeZw/raw",true))()
+    end)
+end)
+
+TextButton_17.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/g00byd0lanxdd/team-super-secret/refs/heads/main/team%20super%20secret"))()
+    end)
+end)
+
+TextButton_8.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Txt-the-Sun-v2-44309"))()
+    end)
+end)
+
+TextButton_78.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Mmaan-44983"))()
+    end)
+end)
+
+TextButton_22.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Arceus-x-gui-script-22768"))()
+    end)
+end)
+
+TextButton_95.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SSP-AGENT-EDITION-44093"))()
+    end)
+end)
+
+TextButton_15.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Hanif290/YoThereSkibidiSigma68/refs/heads/main/Yoshi681SkibidiBoy"))()
+    end)
+end)
+
+TextButton_7.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-TXT-Baldi-43318"))()
+    end)
+end)
+
+TextButton_92.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479"))()
+    end)
+end)
+
+TextButton_5.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/V0VLdEA5/raw"))()
+    end)
+end)
+
+TextButton_52.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ECCSco/Dynamic-Installer/refs/heads/main/Dynamic%20Island%20V2.lua"))("Copyright
+    end)
+end)
+
+TextButton_99.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-tubers93-gui-39932"))()
+    end)
+end)
+
+TextButton_110.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Project-ligma-Editing-by-YXM-Official-43879"))()
+    end)
+end)
+
+TextButton_56.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/kFlWRnXO/raw"))()
+    end)
+end)
+
+TextButton_108.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K00pkidd-message-43505"))()
+    end)
+end)
+
+TextButton_66.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/someunknowndude/ef78b80612f144d546148247a5d2449f/raw/0734c7ede2e2fd12dac8d83d92e28c583c3a9dca/main.lua"))()
+    end)
+end)
+
+TextButton_38.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-tuber9creepykidd-skiddy-shitty-ahh-gui-41988"))()
+    end)
+end)
+
+TextButton_97.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-tuboos93-gui-v3-reupload-31996"))()
+    end)
+end)
+
+TextButton_31.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Tank-Green-43975"))()
+    end)
+end)
+
+TextButton_61.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gitezgitgit/SG-GUI-RED-EDITION/refs/heads/main/FixedVersion"))()
+    end)
+end)
+
+TextButton_62.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/kw5s7X1k')))()
+    end)
+end)
+
+TextButton_59.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/EUwYT4gN/raw"))()
+    end)
+end)
+
+TextButton_45.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastefy.app/Zr2QlV0R/raw"))()
+    end)
+end)
+
+TextButton_64.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-ultimate-trolling-gui-REBORN-43794"))()
+    end)
+end)
+
+TextButton_69.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Client-Replication-w000mgui-v2-reuploaded-before-using-read-description-ty-32055"))()
+    end)
+end)
+
+TextButton_13.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/gagaamza/d5c91e99f7f31e450817c73de16f7e38/raw/855e5a40280cbeb5369d6c8c22243b0c35e9e735/gistfile1.txt"))()
+    end)
+end)
+
+TextButton_73.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TEST19983/Assigment/refs/heads/main/Assignment"))()
+    end)
+end)
+
+TextButton_14.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HrE2dKSD"))()
+    end)
+end)
+
+TextButton_96.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/The-world-of-penguin-Noot-Noot-Script-21390"))()
+    end)
+end)
+
+TextButton_103.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Skeleton-sky-2-43954"))()
+    end)
+end)
+
+TextButton_46.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/U9PArTyn"))()
+    end)
+end)
+
+TextButton_105.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K00pkidd-decal-spam-43507"))()
+    end)
+end)
+
+TextButton_72.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/g8vRx0wa"))()
+    end)
+end)
+
+TextButton_100.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/End-Tubers93-666-25862"))()
+    end)
+end)
+
+TextButton_34.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Nova-Executor-41779"))()
+    end)
+end)
+
+TextButton_83.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SheldonGUI-v3-43481"))()
+    end)
+end)
+
+TextButton_84.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Scary-jumpscare-44039"))()
+    end)
+end)
+
+TextButton_50.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BMsaLeJS"))()
+    end)
+end)
+
+TextButton_109.MouseButton1Click:Connect(function()
+    pcall(function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K00pkidd-jumpscare-43507"))()
+    end)
+end)
+
